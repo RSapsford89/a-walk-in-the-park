@@ -1,7 +1,20 @@
 /* fonts */
 /* Rubik Dirt for big titles, Montserrat Alternates for smaller headings and Amiko for blocks of text  */
 @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Dirt&display=swap');
-h1{
+/* Colors */
+/* These need checking again :O
+khaki green: #596c55
+reno sand: #b35d17
+Nepal (blueish): #99bdc6
+
+*/
+/* background image */
+#banner{
+    background: #596c55 url("/assets/images/green-hills-walker.png") no-repeat 50%/50%;
+    background-size: cover;
+    min-height: 200px;
+}
+header,h1{
     font-family: "Rubik Dirt", sans-serif;
     font-weight: 400;
 }
@@ -13,4 +26,8 @@ p{
 }
 /* colors */
 /* general styles */
+.navbar {
+    font-family: "Rubik Dirt", sans-serif;
+}
+
 /* main */
