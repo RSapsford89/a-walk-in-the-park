@@ -1,6 +1,6 @@
 /* fonts */
 /* Rubik Dirt for big titles, Montserrat Alternates for smaller headings and Amiko for blocks of text  */
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Dirt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Dirt&display=swap");
 /* Colors */
 /* These need checking again :O
 https://coolors.co/ecebe4-916953-056152-2e294e-429ea6
@@ -23,58 +23,87 @@ paper plane: <i class="fa-solid fa-paper-plane"></i>
 retro camera: <i class="fa-solid fa-camera-retro"></i>
 */
 /* background image */
-#for-color-preview{
-    color: #b4ceb3;
-    color: #457b9d;
-    color: #ecebe4;
-    color: #916953;
-    color: #297045;
+:root {
+  --primary-color: #b4ceb3;
+  --primary-font-color: #000000;
+  --secondary-color: #457b9d;
+  color: #ecebe4;
+  --tertiary-color: #916953;
+  --rgba-tertiary: rgba(145,105,83,0.6);
+  color: #297045;
+  --heading-font: "Montserrat Alternates", serif;
+  --primary-font: "Amiko", sans-serif;
 }
-#banner{
-    background: #297045 url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%;
-    background-size: cover;
-    min-height: 300px;
+#banner {
+  background: url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%;
+  background-size: cover;
+  min-height: 300px;
+}
+#banner-text {
+  width: 70%;
+  background-color:var(--rgba-tertiary);
+  box-sizing: border-box;
+  padding: 0 10px;
+  position: absolute;
 }
 body {
-    background-color: #b4ceb3;
-    color: #ecebe4;
+  background-color: #b4ceb3;
+  color: #ecebe4;
+  min-height: 100vh;
+}
+header,
+h1 {
+  font-family: "Rubik Dirt", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+h2,
+h3 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+p {
+  margin: 0 10px 10px 10px;
+  font-family: var(--primary-font);
+  color: var(--primary-font-color);
+}
+li {
+    list-style: none;
+    font-size: 2rem;
+}
 
-}
-header,h1{
-    font-family: "Rubik Dirt", sans-serif;
-    font-weight: 400;
-}
-h2,h3{
-    font-family: "Montserrat Alternates", sans-serif;
-}
-p{
-    font-family: "Amiko", sans-serif;
-}
 /* colors */
 /* general styles */
-.bg-green  {
-    background-color:#b4ceb3
+.bg-green {
+  background-color: #b4ceb3;
 }
-.navbar{
-    padding: 0;
+.navbar {
+  padding: 0;
 }
 .navbar-brand {
-    font-family: "Rubik Dirt", sans-serif;
+  font-family: "Rubik Dirt", sans-serif;
 
-    color: #056152;
+  color: #056152;
 }
-.navbar-toggler{
-    outline: none;
+.navbar-toggler {
+  outline: none;
 }
 
 /* main */
-
-@media screen and (min-width:300px) {
-    .navbar-brand{
+/* footer */
+#social-networks {
+  display: flex;
+  text-align: center;
+  padding: 20px 0;
+  justify-content: space-around;
+  color: var(--tertiary-color);
+}
+/* media queries */
+@media screen and (min-width: 300px) {
+  /* .navbar-brand{
         display: none;
     }
     .navbar-brand-logo{
         justify-content: center;
-    }
-    
+    } */
 }
