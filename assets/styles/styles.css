@@ -10,6 +10,18 @@ Castleton Green: #056152
 Moonstone(blue): #429EA6
 set primary, secondary, bg colour variables
 */
+
+/* Font Awesome Icons 
+compass: <i class="fa-solid fa-compass"></i> 
+burger: <i class="fa-solid fa-bars"></i>
+route: <i class="fa-solid fa-route"></i>
+vertical ellipsis: <i class="fa-solid fa-ellipsis-vertical"></i>
+frog: <i class="fa-solid fa-frog"></i>
+mountain and sun: <i class="fa-solid fa-mountain-sun"></i>
+mountain and city: <i class="fa-solid fa-mountain-city"></i>
+paper plane: <i class="fa-solid fa-paper-plane"></i>
+retro camera: <i class="fa-solid fa-camera-retro"></i>
+*/
 /* background image */
 #for-color-preview{
     color: #b4ceb3;
@@ -21,7 +33,7 @@ set primary, secondary, bg colour variables
 #banner{
     background: #297045 url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%;
     background-size: cover;
-    min-height: 200px;
+    min-height: 300px;
 }
 body {
     background-color: #b4ceb3;
@@ -43,16 +55,26 @@ p{
 .bg-green  {
     background-color:#b4ceb3
 }
+.navbar{
+    padding: 0;
+}
 .navbar-brand {
     font-family: "Rubik Dirt", sans-serif;
-    /* background-color: #b4ceb3; */
+
     color: #056152;
+}
+.navbar-toggler{
+    outline: none;
 }
 
 /* main */
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:300px) {
     .navbar-brand{
-        
+        display: none;
     }
+    .navbar-brand-logo{
+        justify-content: center;
+    }
+    
 }

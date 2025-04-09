@@ -20,28 +20,28 @@
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
     <nav class="navbar bg-green navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid bg-green">
+            <img class="navbar-brand-logo" src="assets/images/green-hills-walker.png" alt="cartoon image of walker"
+                width="30" height="30">
+
             <a class="navbar-brand" href="#">A Walk In The Park</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span  class="fa-solid fa-ellipsis-vertical"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Walks</a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-route"></i>
+                            Walks</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Gallery</a>
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact Us</a>
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
                     </li>
                 </ul>
-                <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
             </div>
         </div>
     </nav>
@@ -49,25 +49,26 @@
     <header id="banner">
         <div>
             <h1>A Walk In The Park</h1>
-            
-            
+        </div>
+    </header>
+
+
+    <!-- ----------------Main content------------ -->
+    <main>
+        <div class="tagline">
+            <h2><i class="fa-solid fa-mountain-city"></i> A place to find local walks around Manchester...</h2>
         </div>
 
-
-    </header>
-    <div class="tagline">
-        <h2>A place to find local walks around Manchester...</h2>
-    </div>
-    <div class="page-descrition">
-        <p>
-            Welcome to A Walk In The Park walking group. We provide curated places to walk around the 
-            Greater Manchester region with a focus on finding the best and lesser worn paths to walk.
-            Scroll down to see local walks in the area.
-        </p>
-    </div>
-    <p>a bit of text to make this look more filled out</p>
-    <!-- Main content -->
-    <main>Main Content</main>
+        <div class="page-descrition">
+            <p>
+                Welcome to A Walk In The Park walking group. We provide curated places to walk around the
+                Greater Manchester region with a focus on finding the best and lesser worn paths to walk.
+                Scroll down to see local walks in the area.
+            </p>
+        </div>
+        <h2><i class="fa-solid fa-route"></i> Walks</h2>
+        <!-- put cards here. Use columns and grids for responsiveness -->
+    </main>
     <h2>Some text demonstrating other font</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptas possimus reprehenderit, libero modi
         similique, necessitatibus impedit quia blanditiis amet repudiandae beatae ab dolore vitae adipisci atque iste
@@ -78,6 +79,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d2d2c68b5.js" crossorigin="anonymous"></script>
 
 </body>
 
