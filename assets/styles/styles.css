@@ -34,76 +34,104 @@ retro camera: <i class="fa-solid fa-camera-retro"></i>
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
 }
+body {
+    background-color: #b4ceb3;
+    color: #ecebe4;
+    min-height: 100vh;
+    margin: 0 10px;
+  }
+  header,
+  h1 {
+    font-family: "Rubik Dirt", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+  h2,
+  h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  p {
+    margin: 0 10px 10px 10px;
+    font-family: var(--primary-font);
+    color: var(--primary-font-color);
+  }
+  /* general styles */
+  .flex{
+    display: flex;
+  }
+ 
+.bg-green {
+    background-color: #b4ceb3;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar-brand {
+    font-family: "Rubik Dirt", sans-serif;
+    color: #056152;
+  }
+  .navbar-toggler {
+    outline: none;
+  }
 #banner {
-  background: url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%;
-  background-size: cover;
-  min-height: 300px;
+  /* background: url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%; */
+  /* background-size: cover; */
+  /* min-height: 300px; */
+  background-color: var(--secondary-color);
 }
 #banner-text {
-  width: 70%;
+  /* width: 70%; */
   background-color:var(--rgba-tertiary);
-  box-sizing: border-box;
-  padding: 0 10px;
-  position: absolute;
-}
-body {
-  background-color: #b4ceb3;
-  color: #ecebe4;
-  min-height: 100vh;
-}
-header,
-h1 {
-  font-family: "Rubik Dirt", sans-serif;
-  font-weight: 400;
-  font-size: 2.5rem;
-}
-h2,
-h3 {
-  font-family: var(--heading-font);
-  color: var(--secondary-color);
-}
-p {
-  margin: 0 10px 10px 10px;
-  font-family: var(--primary-font);
-  color: var(--primary-font-color);
-}
-li {
-    list-style: none;
-    font-size: 2rem;
-}
+  
 
-/* colors */
-/* general styles */
-.bg-green {
-  background-color: #b4ceb3;
+  
 }
-.navbar {
-  padding: 0;
-}
-.navbar-brand {
-  font-family: "Rubik Dirt", sans-serif;
-
-  color: #056152;
-}
-.navbar-toggler {
-  outline: none;
-}
-
 /* main */
+#city-img{
+    
+    background-size: cover;
+
+    
+}
+
+
 /* footer */
 #social-networks {
   display: flex;
   text-align: center;
   padding: 20px 0;
   justify-content: space-around;
-  color: var(--tertiary-color);
 }
+#social-networks *{
+    color: var(--tertiary-color);
+}
+#social-networks li {
+    list-style: none;
+    font-size: 2rem;
+}
+
 /* media queries */
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 320px) {
   /* .navbar-brand{
         display: none;
     }
     .navbar-brand-logo{
         justify-content: center;
     } */
+     .mobile-hidden{
+      display: none;
+     }
+     .large-hidden{
+      display: contents;
+     }
+}
+@media  screen and (min-width: 800px) {
+  .mobile-hidden{
+    display: contents;
+  }
+  .large-hidden{
+    display: none;
+  }
 }
