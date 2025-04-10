@@ -23,29 +23,29 @@
     <div class="container">
         <nav class="navbar fixed-top navbar-expand-md ">
             <div class="container bg-green">
-            <a class="navbar-brand" href="index.html">
-                <img class="d-inline-block align-text-baseline" src="assets/images/green-hills-walker.png"
-                    alt="cartoon image of walker logo" width="30" height="30">A Walk In The Park
-            </a>
-            <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="fa-solid fa-ellipsis-vertical"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto "><!--mb-0 mb-lg-0-->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-route"></i>
-                            Walks</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+                <a class="navbar-brand" href="index.html">
+                    <img class="d-inline-block align-text-baseline" src="assets/images/green-hills-walker.png"
+                        alt="cartoon image of walker logo" width="30" height="30">A Walk In The Park
+                </a>
+                <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa-solid fa-ellipsis-vertical"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto "><!--mb-0 mb-lg-0-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-route"></i>
+                                Walks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
@@ -55,6 +55,7 @@
     <!-- ----------------Main content------------ -->
     <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
+    <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <main class="container">
         <div class="row">
             <div class="col">
@@ -92,11 +93,12 @@
                 </div>
             </section>
         </div>
-        <!-- <div  id="spacer"></div> -->
-
+        
+        <!-- section walks contains h3 text and a city image. This prefixes the walking cards -->
         <section id="walks" class="bg-green">
+
             <div class="row">
-                <div class="col-12 col-md-6 text-sm-center">
+                <div class="col-12 col-md-6 text-sm-start">
                     <h2><i class="fa-solid fa-route"></i> Walks</h2>
                     <div>
                         <h3>Escape the buzz of the city... </h3>
@@ -108,11 +110,41 @@
                             alt="Aerial view of Manchester city">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 text-sm-right">
+                <div class="col-12 col-md-6 text-sm-end">
                     <h3>... and find peace and tranquility in nature</h3>
                 </div>
+
             </div>
 
+
+            <!-- start cards section here -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card w-220">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card" >
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </section>
 
