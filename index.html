@@ -19,44 +19,46 @@
 <body>
     <!-- Landing page section. Should include the quick what we are and the CTA button and NavBar -->
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
-    <header class="container-fluid">
-        <nav class="navbar bg-green navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid bg-green">
-                <img class="navbar-brand-logo" src="assets/images/green-hills-walker.png" alt="cartoon image of walker"
-                    width="30" height="30">
+    <!-- <header class="container-fluid">                         -->
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-sm bg-green">
 
-                <a class="navbar-brand" href="#">A Walk In The Park</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa-solid fa-ellipsis-vertical"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-route"></i>
-                                Walks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="index.html">
+                <img class="d-inline-block align-text-top" src="assets/images/green-hills-walker.png"
+                    alt="cartoon image of walker logo" width="30" height="30">A Walk In The Park
+            </a>
+            <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa-solid fa-ellipsis-vertical"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto "><!--mb-0 mb-lg-0-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-route"></i>
+                            Walks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                    </li>
+                </ul>
             </div>
+
         </nav>
-    </header>
+    </div>
+    <!-- </header> -->
 
 
     <!-- ----------------Main content------------ -->
+    <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
+      and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
     <main class="container">
         <div class="row">
-            <!-- <section id="banner"> -->
-            <!-- <div class="row"> -->
             <div class="col">
-                <div class="row ml-6">
+                <div class="row ml-2">
                     <div class="col-12 col-md text-right " id="banner-text">
                         <h1>A Walk In The Park</h1><!--Need to fix borderr issue - always larger than img?-->
                     </div>
@@ -70,23 +72,18 @@
                         </p>
                     </div>
                 </div>
-
             </div>
-
-
             <div class="col-12 col-md-6">
                 <img class="img-fluid" src="assets/images/hero-img-3.jpg" alt="moorland at sunset">
             </div>
-            <!-- </div> -->
-            <!-- </section> -->
         </div>
         <div class="row">
             <section class="intro">
-                <div class="tagline">
+                <div class="tagline text-sm-center">
                     <h2><i class="fa-solid fa-mountain-city"></i> A place to find local walks around Manchester...</h2>
                 </div>
 
-                <div class="page-description">
+                <div class="page-description large-hidden">
                     <p>
                         Welcome to A Walk In The Park walking group. We provide curated places to walk around the
                         Greater Manchester region with a focus on finding the best and lesser worn paths to walk.
@@ -95,48 +92,28 @@
                 </div>
             </section>
         </div>
-        <!-- <div class="wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-12 col-md test item-2">
-                                <p>
-                                    Welcome to A Walk In The Park walking group. We provide curated places to walk
-                                    around the
-                                    Greater Manchester region with a focus on finding the best and lesser worn paths to
-                                    walk.
-                                    Scroll down to see local walks in the area.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md test item-1">a walk in the park</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 test item-3">
-                        <img class="img-fluid" src="assets/images/hero-img-3.jpg" alt="">
+        <!-- <div  id="spacer"></div> -->
+
+        <section id="walks" class="bg-green">
+            <div class="row">
+                <div class="col-12 col-md-6 text-sm-center">
+                    <h2><i class="fa-solid fa-route"></i> Walks</h2>
+                    <div>
+                        <h3>Escape the buzz of the city... </h3>
                     </div>
                 </div>
-                <div class="row"></div>
-                <div class="row">
-                    <div class="col-12 col-md-4 test">4</div>
-                    <div class="col-12 col-md-4 test">5</div>
-                </div> 
+                <div class="col-12 col-md-6">
+                    <div id="city-img">
+                        <img class="img-fluid" id="city-img" src="assets/images/manchester-city.jpg"
+                            alt="Aerial view of Manchester city">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-sm-right">
+                    <h3>... and find peace and tranquility in nature</h3>
+                </div>
             </div>
-        </div> -->
 
 
-
-        <section id="walks">
-            <h2><i class="fa-solid fa-route"></i> Walks</h2>
-            <div>
-                <h2>Some text demonstrating other font</h2>
-                <p>Escape the buzz of the city and enjoy the tranquility of the countryside with our curated walks. </p>
-            </div>
-            <div id="city-img">
-                <!-- <img id="city-img" src="assets/images/manchester-city.jpg" alt="Aerial view of Manchester city"> -->
-            </div>
         </section>
 
 
@@ -144,28 +121,35 @@
     </main>
 
     <!-- footer -->
-    <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.Instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-square-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <footer>
+                <ul id="social-networks">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our twitter page (opens in a new tab)"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our YouTube page (opens in a new tab)"><i
+                                class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.Instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
     <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
