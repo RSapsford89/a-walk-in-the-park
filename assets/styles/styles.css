@@ -27,6 +27,7 @@ retro camera: <i class="fa-solid fa-camera-retro"></i>
   --primary-color: #b4ceb3;
   --primary-font-color: #000000;
   --secondary-color: #457b9d;
+  --secondary-font-color:#ecebe4;
   color: #ecebe4;
   --tertiary-color: #916953;
   --rgba-tertiary: rgba(145,105,83,0.6);
@@ -34,9 +35,19 @@ retro camera: <i class="fa-solid fa-camera-retro"></i>
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
 }
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+div{
+  background-color: #056152;
+}
 body {
-    background-color: #b4ceb3;
-    color: #ecebe4;
+  background:center/contain no-repeat url("/assets/images/tree-page-bg.jpg");
+  background-size: cover;
+    /* background-color: #b4ceb3; */
+    /* color: #ecebe4; */
     min-height: 100vh;
     margin: 0 10px;
   }
@@ -45,17 +56,18 @@ body {
     font-family: "Rubik Dirt", sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
+    padding: 0 5px;
   }
   h2,
   h3 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--secondary-font-color);
     margin-bottom: 20px;
   }
   p {
     margin: 0 10px 10px 10px;
     font-family: var(--primary-font);
-    color: var(--primary-font-color);
+    color: var(--secondary-font-color);
   }
   /* general styles */
   .flex{
@@ -63,7 +75,7 @@ body {
   }
  
 .bg-green {
-    background-color: #b4ceb3;
+    background-color:#056152;
   }
   .navbar {
     padding: 0;
@@ -84,16 +96,10 @@ body {
 #banner-text {
   /* width: 70%; */
   background-color:var(--rgba-tertiary);
-  
-
-  
 }
 /* main */
 #city-img{
-    
     background-size: cover;
-
-    
 }
 
 
