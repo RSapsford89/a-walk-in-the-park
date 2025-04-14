@@ -99,6 +99,9 @@ body {
     margin-top:30px;
     border-top: 30px;
   } */
+   .card{
+    max-width: 600px;
+   }
 #banner {
   /* background: url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%; */
   /* background-size: cover; */
