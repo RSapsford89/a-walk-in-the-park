@@ -99,7 +99,7 @@
 
             <div class="row">
                 <div class="col-12 col-md-6 text-sm-start">
-                    <h2><i class="fa-solid fa-route"></i> Walks</h2>
+                    <h2><i class="fa-solid fa-compass"></i> Walks</h2>
                     <div>
                         <h3>Escape the buzz of the city... </h3>
                     </div>
@@ -115,8 +115,8 @@
                 </div>
             </div>
             <div>
-                <p>
-                    The walks are categorised as follows:
+                <!-- <p>
+                    The walks are categorised by:
                 <ul>
                     <li>Distance</li>
                     <li>Difficulty</li>
@@ -124,41 +124,47 @@
                     <li>Walk Type</li>
                     <li>Location</li>
                 </ul>
-                </p>
-                <table>
-                    <caption>
-                        Walk card key.
-                    </caption>
+                </p> -->
+                <table class="table table-responsive table-hover table-borderless table-sm mobile-hidden">
                     <thead>
                         <tr>
-                            <!-- <th scope="col">Category</th> -->
-                            <th scope="col">Icon</th>
-                            <th scope="col">Meaning</th>
+                            <th scope="col">Walk</th>
+                            <th scope="col">Area</th>
+                            <th scope="col">Walk Type</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="table-group-divider">
                         <tr>
-                            <th scope="row">Woodland</th>
-                            <td> trees</td>
-                            <td>A woodland walk, most likely shaded by the trees</td>
+                            <th scope="row">Healey Dell</th><!--add href to go to card or open modal-->
+                            <td> Whitworth, Rochdale</td>
+                            <td>A woodland walk, with options to go to the river</td>
                         </tr>
                         <tr>
-                            <th scope="row">Rocky</th>
-                            <td>rocks/rugged</td>
-                            <td>A rugged rocky rocky walk, exposed to the elements</td>
+                            <th scope="row">Blackstone Edge</th>
+                            <td>Littleborough</td>
+                            <td>A rugged rocky rocky walk, panoramic views to enjoy</td>
                         </tr>
                         <tr>
-                            <th scope="row">Moorland</th>
-                            <td>hills</td>
-                            <td>A hillside walk in the moors, exposed to the elements with limited paths</td>
+                            <th scope="row">Quarry Bank</th>
+                            <td>Styal, Stockport</td>
+                            <td>Woodland river walks with historic site</td>
                         </tr>
                         <tr>
-                            <th scope="row"></th>
+                            <th scope="row">Ashworth valley</th>
+                            <td>Norden, Rochdale</td>
+                            <td>Woodland river walks climbing up to Scour Moors</td>
                         </tr>
-                        <tr></tr>
+                        <tr>
+                            <th scope="row">Kingfisher Trail</th>
+                            <td>Toppings, Bolton</td>
+                            <td>Woodland river walks and reservoir</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lyme Park</th>
+                            <td>Disley, Stockport</td>
+                            <td>Woodland and hillside walks in country park</td>
+                        </tr>
                     </tbody>
-
-
                 </table>
             </div>
 
@@ -172,11 +178,11 @@
                             <h5 class="card-title">Ashworth Valley</h5>
                             <p class="card-text">Woodland walk through through Ashworth valley woods</p>
                             <ul class="list-group-flush">
-                                <li class="list-group-item">Distance</li>
-                                <li class="list-group-item">Difficulty rating: Low-Medium</li>
+                                <li class="list-group-item"><i class="fa-solid fa-route"></i> 1.5Km | 2.5Km | 4.75Km</li>
+                                <li class="list-group-item"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
-                                <li class="list-group-item">Walk type</li>
-                                <li class="list-group-item"><i class="fa-solid fa-compass"></i>Location</li>
+                                <li class="list-group-item"><i class="fa-solid fa-tree"></i> Woodland</li>
+                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Location</li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -185,17 +191,17 @@
                 <div class="col-12 col-md-6 mb-3">
                     <div class="card">
                         <img src="assets/images/healey-dell.jpg" class="card-img-top"
-                            alt="Healery Dell waterfall and viaduct">
+                            alt="Healey Dell waterfall and viaduct">
                         <div class="card-body">
                             <h5 class="card-title">Healey Dell</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.</p>
                             <ul class="list-group-flush">
-                                <li class="list-group-item">Distance</li>
-                                <li class="list-group-item">Difficulty rating</li>
+                                <li class="list-group-item"><i class="fa-solid fa-route"></i> 1.5Km | 3Km | 8Km</li>
+                                <li class="list-group-item"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
-                                <li class="list-group-item">Walk type</li>
-                                <li class="list-group-item"><i class="fa-solid fa-compass"></i>Location</li>
+                                <li class="list-group-item"><i class="fa-solid fa-tree"></i> Woodland</li>
+                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Location</li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -205,14 +211,14 @@
                     <div class="card w-220">
                         <img src="assets/images/lymm-park.jpg" class="card-img-top" alt="Lymm Park trees in the mist">
                         <div class="card-body">
-                            <h5 class="card-title">Lymm Park</h5>
+                            <h5 class="card-title">Lyme Park</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.</p>
                             <ul class="list-group-flush">
-                                <li class="list-group-item">Distance</li>
-                                <li class="list-group-item">Difficulty rating</li>
+                                <li class="list-group-item"><i class="fa-solid fa-route"></i>1Km | 2Km | 5Km</li>
+                                <li class="list-group-item"><i class="fa-solid fa-star-half-stroke"></i>Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
-                                <li class="list-group-item">Walk type</li>
+                                <li class="list-group-item"><i class="fa-solid fa-tree"></i><i class="fa-solid fa-mound"></i>Woodland and hillside</li>
                                 <li class="list-group-item"><i class="fa-solid fa-compass"></i>Location</li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -228,10 +234,10 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.</p>
                             <ul class="list-group-flush">
-                                <li class="list-group-item">Distance</li>
-                                <li class="list-group-item">Difficulty rating</li>
+                                <li class="list-group-item"><i class="fa-solid fa-route"></i>1.5Km | 2Km | 3Km</li>
+                                <li class="list-group-item"><i class="fa-solid fa-star"></i>Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
-                                <li class="list-group-item">Walk type</li>
+                                <li class="list-group-item"><i class="fa-solid fa-tree"></i>Woodland</li>
                                 <li class="list-group-item"><i class="fa-solid fa-compass"></i>Location</li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>

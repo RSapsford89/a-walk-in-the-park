@@ -21,132 +21,122 @@ mountain and sun: <i class="fa-solid fa-mountain-sun"></i>
 mountain and city: <i class="fa-solid fa-mountain-city"></i>
 paper plane: <i class="fa-solid fa-paper-plane"></i>
 retro camera: <i class="fa-solid fa-camera-retro"></i>
+rocky hillside: <i class="fa-solid fa-hill-rockslide"></i>
+hill: <i class="fa-solid fa-mound"></i>
+tree: <i class="fa-solid fa-tree"></i>
+full star: <i class="fa-solid fa-star"></i>
+half star: <i class="fa-solid fa-star-half-stroke"></i>
 */
 /* background image */
 :root {
   --primary-color: #b4ceb3;
   --primary-font-color: #000000;
   --secondary-color: #457b9d;
-  --secondary-font-color:#ecebe4;
+  --secondary-font-color: #ecebe4;
   --tertiary-color: #916953;
-  --rgba-tertiary: rgba(145,105,83,0.6);
+  --rgba-tertiary: rgba(145, 105, 83, 0.6);
   color: #297045;
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
+  --title-font: "Rubik Dirt", serif;
 }
-*{
+* {
   margin: 0px;
   padding: 0px;
-
 }
- div{
+div {
   background-color: #056152;
- 
 }
 body {
-  background:center/contain no-repeat url("/assets/images/tree-page-bg.jpg");
+  background: center/contain no-repeat url("/assets/images/tree-page-bg.jpg");
   background-size: cover;
-    /* background-color: #b4ceb3; */
-    /* color: #ecebe4; */
-    height: 100%;
-    margin: 42px 10px;
-  }
-  header{
-    font-family: "Rubik Dirt", sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    justify-content: space-around;
-  }
-  h1 {
-    font-family: "Rubik Dirt", sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-    padding: 0 5px;
-  }
-  h2,
-  h3 {
-    font-family: var(--heading-font);
-    color: var(--secondary-font-color);
-    margin-bottom: 20px;
-  }
-  p {
-    margin: 0 10px 10px 10px;
-    font-family: var(--primary-font);
-    color: var(--secondary-font-color);
-  }
-  /* general styles */
-  .flex{
-    display: flex;
-  }
- 
+  /* background-color: #b4ceb3; */
+  /* color: #ecebe4; */
+  height: 100%;
+  margin: 42px 10px;
+}
+header {
+  font-family: "Rubik Dirt", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+h1 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 0 5px;
+}
+h2,
+h3 {
+  font-family: var(--heading-font);
+  color: var(--secondary-font-color);
+  margin-bottom: 20px;
+}
+p {
+  margin: 0 10px 10px 10px;
+  font-family: var(--primary-font);
+  color: var(--secondary-font-color);
+}
+/* general styles */
+.flex {
+  display: flex;
+}
+
 .bg-green {
-    background-color:#056152;
-  }
-  .navbar  {
-    padding: 0;
-    margin:0 10px;
-    justify-content: space-around;
-  }
-  .navbar-brand {
-    font-family: "Rubik Dirt", sans-serif;
-    /* color: #056152; */
-    white-space:normal ;
-  }
-  .navbar-toggler {
-    outline: none;
-  }
-  /* .container{
-    margin-top:30px;
-    border-top: 30px;
-  } */
-   .card{
-    max-width: 600px;
-   }
+  background-color: #056152;
+}
+.navbar {
+  padding: 0;
+  margin: 0 10px;
+  justify-content: space-around;
+}
+.navbar-brand {
+  font-family: var(--title-font);
+  white-space: normal;
+}
+.navbar-toggler {
+  outline: none;
+}
+.card {
+  max-width: 600px;
+}
+.card-title {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 2rem;
+}
 #banner {
-  /* background: url("/assets/images/hero-img-3.jpg") no-repeat 50%/50%; */
-  /* background-size: cover; */
-  /* min-height: 300px; */
   background-color: var(--secondary-color);
 }
 #banner-text {
   /* width: 70%; */
-  background-color:var(--rgba-tertiary);
+  background-color: var(--rgba-tertiary);
 }
 /* main */
-#city-img{
-    /* background-size: auto; */
-    /* max-width: 300px; */
+#city-img {
+  /* background-size: auto; */
+  /* max-width: 300px; */
 }
 /* styling for table */
-table{
-  border-collapse: collapse;
-  border: 2px solid wheat;
-  font-family: var(--primary-font);
-}
-thead{
-  background-color: var(--primary-color);
-}
-th,td{
-  border: 1px solid wheat;
-  padding: 5px;
-}
-
 
 /* footer */
+footer {
+  background-color: var(--primary-color);
+}
 #social-networks {
   display: flex;
   text-align: center;
   padding: 20px 0;
   justify-content: space-around;
 }
-#social-networks *{
-    color: var(--tertiary-color);
+#social-networks * {
+  color: var(--tertiary-color);
 }
 #social-networks li {
-    list-style: none;
-    font-size: 2rem;
+  list-style: none;
+  font-size: 2rem;
 }
-
 
 /* media queries */
 @media screen and (min-width: 320px) {
@@ -156,18 +146,18 @@ th,td{
     .navbar-brand-logo{
         justify-content: center;
     } */
-     .mobile-hidden{
-      display: none;
-     }
-     .large-hidden{
-      display: contents;
-     }
-}
-@media  screen and (min-width: 768px) {
-  .mobile-hidden{
+  .mobile-hidden {
+    display: none;
+  }
+  .large-hidden {
     display: contents;
   }
-  .large-hidden{
+}
+@media screen and (min-width: 768px) {
+  .mobile-hidden {
+    display: contents;
+  }
+  .large-hidden {
     display: none;
   }
 }
