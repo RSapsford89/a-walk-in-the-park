@@ -50,8 +50,6 @@ div {
 body {
   background: center/contain no-repeat url("/assets/images/tree-page-bg.jpg");
   background-size: cover;
-  /* background-color: #b4ceb3; */
-  /* color: #ecebe4; */
   height: 100%;
   margin: 42px 10px;
 }
