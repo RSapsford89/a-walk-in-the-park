@@ -117,6 +117,19 @@ body {
     /* background-size: auto; */
     /* max-width: 300px; */
 }
+/* styling for table */
+table{
+  border-collapse: collapse;
+  border: 2px solid wheat;
+  font-family: var(--primary-font);
+}
+thead{
+  background-color: var(--primary-color);
+}
+th,td{
+  border: 1px solid wheat;
+  padding: 5px;
+}
 
 
 /* footer */
