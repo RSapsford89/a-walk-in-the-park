@@ -10,7 +10,6 @@ Castleton Green: #056152
 Moonstone(blue): #429EA6
 set primary, secondary, bg colour variables
 */
-
 /* Font Awesome Icons 
 compass: <i class="fa-solid fa-compass"></i> 
 burger: <i class="fa-solid fa-bars"></i>
@@ -48,10 +47,12 @@ div {
   background-color: #056152;
 }
 body {
-  background: center/contain no-repeat url("/assets/images/tree-page-bg.jpg");
-  background-size: cover;
+  background-color: #dcecdc;
   height: 100%;
   margin: 42px 10px;
+}
+main {
+    background-color: #056152;
 }
 header {
   font-family: "Rubik Dirt", sans-serif;
@@ -63,7 +64,7 @@ h1 {
   font-family: var(--title-font);
   font-weight: 400;
   font-size: 2.5rem;
-  padding: 0 5px;
+  padding: 1rem;
 }
 h2,
 h3 {
@@ -80,14 +81,28 @@ p {
 .flex {
   display: flex;
 }
-
+.center-space {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    background-color: #b4ceb3;
+    color: #076152;
+    border: none;
+}
 .bg-green {
   background-color: #056152;
+}
+.table-walk {
+    margin: 1rem 0;
 }
 .navbar {
   padding: 0;
   margin: 0 10px;
   justify-content: space-around;
+}
+.tagline {
+    padding: 1rem;
 }
 .navbar-brand {
   font-family: var(--title-font);
@@ -117,7 +132,6 @@ p {
   /* max-width: 300px; */
 }
 /* styling for table */
-
 /* footer */
 footer {
   background-color: var(--primary-color);
@@ -135,7 +149,6 @@ footer {
   list-style: none;
   font-size: 2rem;
 }
-
 /* media queries */
 @media screen and (min-width: 320px) {
   /* .navbar-brand{

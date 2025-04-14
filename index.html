@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head class="container-fluid">
     <!-- SEO, ARIA, tags, fonts, favicon -->
     <meta charset="UTF-8">
@@ -15,7 +14,6 @@
     <!-- local style sheet comes after bootstrap! -->
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-
 <body>
     <!-- Landing page section. Should include the quick what we are and the CTA button and NavBar -->
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
@@ -50,8 +48,6 @@
         </nav>
     </div>
     <!-- </header> -->
-
-
     <!--                                         Main content-->
     <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
@@ -83,7 +79,6 @@
                 <div class="tagline text-sm-center">
                     <h2><i class="fa-solid fa-mountain-city"></i> A place to find local walks around Manchester...</h2>
                 </div>
-
                 <div class="page-description large-hidden">
                     <p>
                         Welcome to A Walk In The Park walking group. We provide curated places to walk around the
@@ -92,38 +87,34 @@
                     </p>
                     <br>
                 </div>
-
             </section>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center center-space">
             <div class="col-6">
                 <button type="button" class="btn btn-primary btn-lg ">Sign up</button>
             </div>
         </div>
-
         <!-- section walks contains h3 text and a city image. This prefixes the walking cards -->
-
-
+        <hr>
         <div class="row">
-            <div class="col-12 col-md-3 align-self-end">
+            <div class="col-12 col-md-4 align-self-end">
                 <div>
                     <h3>Escape the buzz of the city... </h3>
                 </div>
             </div>
-            <div class="col-12 col-md-3 align-self-center">
+            <div class="col-12 col-md-4 align-self-center">
                 <div>
                     <img class="img-fluid" id="city-img" src="assets/images/manchester-city.jpg"
                         alt="Aerial view of Manchester city">
                 </div>
             </div>
-            <div class="col-12 col-md-3 text-sm-start">
+            <div class="col-12 col-md-4 text-sm-start">
                 <div>
                     <h3>... and find peace and tranquility in nature</h3>
                 </div>
-
             </div>
         </div>
-
+        <hr>
         <!--                                             WALKS section -->
         <section id="walks" class="bg-green">
             <div class="row justify-content-center">
@@ -132,7 +123,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 ">
+                <div class="col-12 table-walk">
                     <table class="table table-responsive table-hover table-borderless table-sm mobile-hidden">
                         <thead>
                             <tr>
@@ -177,7 +168,6 @@
                 </div>
             </div>
             <!--                            start cards section here -->
-
             <div class="row">
                 <div class="col-12 col-md-6 mb-3">
                     <div class="card w-220">
@@ -262,7 +252,6 @@
             </div>
         </section>       
     </main>
-
     <!-- footer -->
     <div class="container">
         <div class="row">
@@ -292,13 +281,10 @@
             </footer>
         </div>
     </div>
-
     <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4d2d2c68b5.js" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
