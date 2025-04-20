@@ -38,6 +38,7 @@ half star: <i class="fa-solid fa-star-half-stroke"></i>
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
   --title-font: "Rubik Dirt", serif;
+  --margin-value:40px;
 }
 * {
   margin: 0px;
@@ -65,12 +66,13 @@ h1 {
   font-weight: 400;
   font-size: 2.5rem;
   padding: 1rem;
+  width:100%;
+  text-align: center;
 }
 h2,
 h3 {
   font-family: var(--heading-font);
   color: var(--secondary-font-color);
-  margin: 20px 0;
 }
 p {
   margin: 0 10px 10px 10px;
@@ -78,6 +80,12 @@ p {
   color: var(--secondary-font-color);
 }
 /* general styles */
+.spacer{
+  margin: var(--margin-value) 0;
+}
+.spacer-top{
+margin-top: var(--margin-value);
+}
 .flex {
   display: flex;
 }
@@ -238,9 +246,7 @@ display: block;
   .mobile-hidden {
     display: none;
   }
-  /* .large-hidden {
-    display: contents;
-  }  */
+  
 }
 @media screen and (min-width: 768px) {
   .mobile-hidden {
