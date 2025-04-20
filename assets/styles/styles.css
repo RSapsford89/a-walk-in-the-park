@@ -70,7 +70,7 @@ h2,
 h3 {
   font-family: var(--heading-font);
   color: var(--secondary-font-color);
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 p {
   margin: 0 10px 10px 10px;
@@ -125,6 +125,9 @@ p {
 #banner-text {
   /* width: 70%; */
   background-color: var(--rgba-tertiary);
+}
+#btn-cover{
+
 }
 /* main */
 
@@ -213,26 +216,31 @@ display: block;
 }
 
 /* media queries */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
   /* for img space in mobile mode */
- .mobile-image{
-  margin: 40px 0;
- }
+ 
  #btn-parent{
   position:relative;
+  margin: 40px 0;
  }
- .btn-position{
+ #btn-parent div{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
+
   .mobile-hidden {
     display: none;
   }
-  .large-hidden {
+  /* .large-hidden {
     display: contents;
-  }
+  }  */
 }
 @media screen and (min-width: 768px) {
   .mobile-hidden {
