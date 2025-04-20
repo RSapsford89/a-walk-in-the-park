@@ -50,27 +50,48 @@
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
     <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <main class="container">
-        <div class="row">
-            <div class="col">
-                <div class="row ml-2">
-                    <div class="col-12 col-md text-right " id="banner-text">
-                        <h1>A Walk In The Park</h1><!--Need to fix borderr issue - always larger than img?-->
-                    </div>
+        <div class="container intro">
+            <h1 style="width: 100%; text-align: center;">A Walk In The Park</h1>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-md-6 text-sm-start">
+                    <h2>A place to find curated walks around Manchester</h2>
                 </div>
-                <div class="row">
-                    <div class="d-none d-sm-block col-md ">
-                        <p>
-                            Welcome to A Walk In The Park walking group. We provide curated places to walk around the
-                            Greater Manchester region with a focus on finding the best and lesser worn paths to walk.
-                            Find the walks below.
-                        </p>
-                    </div>
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid mobile-image" src="assets/images/hero-img-3.jpg" alt="moorland at sunset">
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <img class="img-fluid" src="assets/images/hero-img-3.jpg" alt="moorland at sunset">
+            <hr>
+            
+        </div>
+
+        <div class="container info">
+            <div class="row">
+                <div class="col-12 col-md-4 align-self-start">
+                    <div>
+                        <h3>Escape the buzz of the city... </h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <div id="btn-parent">
+                        <img class="img-fluid mobile-image" id="city-img" src="assets/images/manchester-city.jpg"
+                            alt="Aerial view of Manchester city">
+                            <div class="col-6">
+                                <button type="button" class="btn btn-primary btn-lg btn-position">Sign up</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-sm-end">
+                    <div>
+                        <h3>... and find peace and tranquility in nature</h3>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- put button overlayed on the city img for mobile. get rid of "and find peace and traquility"? -->
+
+        <div style="height: 600px;"></div>
+        <!-- old design below -->
         <div class="row">
             <section class="intro">
                 <div class="tagline text-sm-center">
