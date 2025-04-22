@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head class="container-fluid">
     <!-- SEO, ARIA, tags, fonts, favicon -->
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
     <!-- local style sheet comes after bootstrap! -->
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
+
 <body>
     <!-- Landing page section. Should include the quick what we are and the CTA button and NavBar -->
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
@@ -50,7 +52,7 @@
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
     <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <main class="container">
-        <div class="container-intro">
+        <div class="container intro">
             <h1 style="width: 100%; text-align: center;">A Walk In The Park</h1>
             <hr>
             <div class="row">
@@ -62,7 +64,7 @@
                 </div>
             </div>
             <hr>
-            
+
         </div>
 
         <div class="container">
@@ -73,28 +75,25 @@
                         <p></p>
                     </div>
                 </div>
-                <div class="col-12 col-md-8 align-self-center">
+                <div class="col-12 col-md-8">
                     <!-- should the button go on the first image instead? -->
-                    <div id="btn-parent">
+                    <div id="image-stack">
                         <img class="img-fluid mobile-image" id="city-img" src="assets/images/manchester-city.jpg"
                             alt="Aerial view of Manchester city">
-                            <div class="col-6">
-                                <button type="button" class="btn btn-primary btn-lg">Sign up</button>
-                            </div>
+                        <img class="img-fluid" id="bee-cutout" src="assets/images/bee-cutout.png" alt="Bee cutout">
+
+                    </div>
+                    <div class="col text-center mt-3">
+                        <button type="button" class="btn btn-primary btn-lg">Sign up</button>
                     </div>
                 </div>
-                <!-- <div class="col-12 col-md-4 text-sm-end">
-                    <div>
-                        <h3>... and find peace and tranquility in nature</h3>
-                    </div>
-                </div> -->
             </div>
         </div>
         <!-- put button overlayed on the city img for mobile. get rid of "and find peace and traquility"? -->
 
         <div style="height: 200px;"></div>
         <!-- old design below -->
-        
+
         <!--                                             WALKS section -->
         <section id="walks" class="bg-green">
             <div class="row justify-content-center">
@@ -230,7 +229,7 @@
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
     </main>
     <!-- footer -->
     <div class="container">
@@ -267,4 +266,5 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4d2d2c68b5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

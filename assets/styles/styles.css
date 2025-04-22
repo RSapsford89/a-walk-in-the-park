@@ -26,6 +26,15 @@ tree: <i class="fa-solid fa-tree"></i>
 full star: <i class="fa-solid fa-star"></i>
 half star: <i class="fa-solid fa-star-half-stroke"></i>
 */
+/* colours from imgpicker using ashworth woods img: */
+ashworth-colours{
+color:#7fa01a;
+color:#bedd7d;
+color:rgb(176, 176, 166);
+color:#1e1d0a;
+color:#d5c6a3;
+color:#7e7a51;
+}
 /* background image */
 :root {
   --primary-color: #b4ceb3;
@@ -53,7 +62,8 @@ body {
   margin: 42px 10px;
 }
 main {
-    background-color: #056152;
+    /* background-color: #056152; */
+    background-image: linear-gradient(to bottom, rgba(176,176,166,0.5), rgba(148,187,85,1));
 }
 header {
   font-family: "Rubik Dirt", sans-serif;
@@ -138,7 +148,21 @@ margin-top: var(--margin-value);
 
 }
 /* main */
+#image-stack {
+  position: relative;
+}
 
+#city-img {
+  position: relative;
+  z-index: 1;
+}
+
+#bee-cutout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
 /* styling for table */
 /* footer */
 footer {
@@ -227,7 +251,7 @@ display: block;
 @media screen and (min-width: 300px) {
   /* for img space in mobile mode */
  
- #btn-parent{
+ /* #btn-parent{
   position:relative;
   margin: 40px 0;
  }
@@ -237,11 +261,13 @@ display: block;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../images/bee-cutout.png);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
- }
+ } */
 
   .mobile-hidden {
     display: none;
