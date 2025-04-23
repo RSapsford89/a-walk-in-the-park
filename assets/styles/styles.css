@@ -39,7 +39,7 @@ color:#7e7a51;
   --primary-color: #7e7a51;
   --primary-font-color: #1e1d10;
   --secondary-color: #048a81;
-  --secondary-font-color: #b0b0a6;
+  --secondary-font-color: #7e7a51;
   --tertiary-color: #916953;
   --rgba-tertiary: rgba(145, 105, 83, 0.6);
   --heading-font: "Montserrat Alternates", serif;
@@ -82,7 +82,7 @@ h1 {
 h2,
 h3 {
   font-family: var(--heading-font);
-  color: var(--secondary-font-color);
+  color: var(--primary-font-color);
 }
 p {
   margin: 0 10px 10px 10px;
@@ -118,6 +118,10 @@ margin-top: var(--margin-value);
   padding: 0;
   margin: 0 10px;
   justify-content: space-around;
+}
+.navbar-color{
+  background-color: var(--secondary-color);
+  
 }
 .tagline {
     padding: 1rem;
@@ -158,7 +162,7 @@ margin-top: var(--margin-value);
 /* styling for table */
 /* footer */
 footer {
-  background-color: var(--primary-color);
+  background-color: #7fa01a;
 }
 #social-networks {
   display: flex;
@@ -167,7 +171,7 @@ footer {
   justify-content: space-around;
 }
 #social-networks * {
-  color: var(--tertiary-color);
+  color: #b0b0a6;
 }
 #social-networks li {
   list-style: none;
