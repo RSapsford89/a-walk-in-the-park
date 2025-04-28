@@ -11,6 +11,7 @@ Who, Why, Because...
 4. A frequent user wants to see if the walks suit their families fitness or accessbility level when viewing walk cards.
 5. A returning user wants to sign up for the newsletter so they can be kept informed of any newly added walks and also to send a list of selected walks to their inbox.
 6. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
+7. A frequent user wants to be kept up to date and sign up to the newsletter so they do not need to visit the site to check for updates daily.
 ## Features
 
 ### Design
@@ -34,5 +35,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 
 * Gallery hover to give image description
 * floating sign-up button at the side
-*
+* signup btn should change to better contrasting colour
+* signup btn initial state colours need setting
+* 
 
