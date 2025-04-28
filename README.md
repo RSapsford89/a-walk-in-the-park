@@ -30,4 +30,9 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 
 ## Deployment
 
+##Future Improvements
+
+* Gallery hover to give image description
+* floating sign-up button at the side
+*
 
