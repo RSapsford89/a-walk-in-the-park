@@ -100,6 +100,9 @@ margin-top: var(--margin-value);
 .flex {
   display: flex;
 }
+.img-opacity{
+  opacity: 0.6;
+}
 .center-space {
     text-align: center;
     padding-bottom: 1rem;
