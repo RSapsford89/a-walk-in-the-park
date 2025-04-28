@@ -166,7 +166,7 @@ margin-top: var(--margin-value);
 /* styling for table */
 /* footer */
 footer {
-  background-color: #7fa01a;
+  background-color: #b0b0a6;
 }
 #social-networks {
   display: flex;
@@ -175,7 +175,7 @@ footer {
   justify-content: space-around;
 }
 #social-networks * {
-  color: #b0b0a6;
+  color: #aa6fb5;
 }
 #social-networks li {
   list-style: none;

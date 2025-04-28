@@ -44,5 +44,10 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * get rid of accessiblity card section?
 * get rid of button due to reliance on JS for desired function?
 * fix footer colour issues
+* overlay first line to the embed video in sm view?
+* standardise all margins for divs
+* semantics need adding/checking
+* are img titles req?
+
 
 
