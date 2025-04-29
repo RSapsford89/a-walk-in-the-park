@@ -138,7 +138,7 @@ margin-top: var(--margin-value);
   outline: none;
 }
 .card {
-  max-width: 600px;
+  max-width: 400px;
 }
 .card-title {
   font-family: var(--title-font);

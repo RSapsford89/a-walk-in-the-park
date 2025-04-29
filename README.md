@@ -43,7 +43,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * signup btn should change to better contrasting colour
 * signup btn initial state colours need setting
 * add img alt texts
-* finalise card info
+* finalise card info - stop scaling up at laptop size. btn to open new page link to gmaps https://www.google.co.uk/maps/search/PostCodeHere
 * accordion walk info instead of the table
 * add table styles if keeping
 * get rid of accessiblity card section?
