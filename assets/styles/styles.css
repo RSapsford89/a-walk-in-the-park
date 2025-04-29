@@ -152,12 +152,12 @@ margin-top: var(--margin-value);
   position: relative;
 }
 
-#city-img {
+#parent-img {
   position: relative;
   z-index: 1;
 }
 
-#bee-cutout {
+#overlay-img {
   position: absolute;
   top: 0;
   left: 0;

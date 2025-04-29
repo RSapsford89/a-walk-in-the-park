@@ -13,7 +13,12 @@ Who, Why, Because...
 6. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
 7. A frequent user wants to be kept up to date and sign up to the newsletter so they do not need to visit the site to check for updates daily.
 ## Features
-
+### Homepage
+ The site landing page. Utilises Bootstrap grids, navbar and cards. Large title with an autoplay, looped and muted video followed by an aerial shot of MAnchester city with the bee overlayed on top. A large button "Sign up to Newsletter!" opens a Bootstrap Modal form.
+ #### Modal form
+ The modal opens on clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
+ ### Gallery 
+ This page contains a masonry styled image gallery. On mouse hover, some image text is overlayed.
 ### Design
 #### Colour scheme
 #### Fonts
