@@ -53,6 +53,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * standardise all margins for divs
 * semantics need adding/checking
 * are img titles req?
+* reduce max vp width at large sizes - its too wide!
 
 
 
