@@ -54,6 +54,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * semantics need adding/checking
 * are img titles req?
 * reduce max vp width at large sizes - its too wide!
+* navbar consistency - different font and size from home to gallery page
 
 
 

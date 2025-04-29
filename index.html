@@ -97,10 +97,48 @@
 
             </div>
             <div class="col text-center my-3">
-                <button type="button" class="btn btn-primary btn-lg">Sign up to the Newsletter!</button>
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#modalForm">Sign up to the Newsletter!</button>
             </div>
             <hr>
         </div>
+        <!-- modal here -->
+        <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="firstName" class="form-label">First Name: </label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                </div>
+                                <div class="col">
+                                    <label for="lastName" class="form-label">First Name: </label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                </div>
+                                <div class="col">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- put button overlayed on the city img for mobile.  -->
         <!--                                             WALKS section -->
@@ -171,7 +209,8 @@
                                     Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
                                 <li class="list-group-item"><i class="fa-solid fa-tree"></i> Woodland</li>
-                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Norden, Rochdale</li>
+                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Norden, Rochdale
+                                </li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -184,14 +223,15 @@
                         <div class="card-body">
                             <h5 class="card-title">Healey Dell</h5>
                             <p class="card-text">Woodland walk through waterfalls, aquaducts and historical WW2
-                                factories!</p>
+                                ruins!</p>
                             <ul class="list-group-flush p-1">
                                 <li class="list-group-item"><i class="fa-solid fa-route"></i> 1.5Km</li>
                                 <li class="list-group-item"><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star-half-stroke"></i>Difficulty rating</li>
                                 <li class="list-group-item">Accessibility</li>
                                 <li class="list-group-item"><i class="fa-solid fa-tree"></i> Woodland</li>
-                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Whitworth, Rochdale</li>
+                                <li class="list-group-item"><i class="fa-solid fa-compass"></i> Whitworth, Rochdale
+                                </li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -202,7 +242,8 @@
                         <img src="assets/images/lymm-park.jpg" class="card-img-top" alt="Lymm Park trees in the mist">
                         <div class="card-body">
                             <h5 class="card-title">Lyme Park</h5>
-                            <p class="card-text">Country park set in beautiful hills and woods. Multiple paths around
+                            <p class="card-text">Country park set in beautiful hills and woods. Multiple paths
+                                around
                                 the estate.</p>
                             <ul class="list-group-flush p-1">
                                 <li class="list-group-item"><i class="fa-solid fa-route"></i> 5Km</li>
@@ -212,7 +253,8 @@
                                 <li class="list-group-item">Accessibility</li>
                                 <li class="list-group-item"><i class="fa-solid fa-tree"></i><i
                                         class="fa-solid fa-mound"></i>Woodland and hillside</li>
-                                <li class="list-group-item"><i class="fa-solid fa-compass"></i>Disley, Stockport</li>
+                                <li class="list-group-item"><i class="fa-solid fa-compass"></i>Disley, Stockport
+                                </li>
                             </ul>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -224,7 +266,8 @@
                             alt="Quarry Bank dog walking through the trees">
                         <div class="card-body">
                             <h5 class="card-title">Quarry Bank</h5>
-                            <p class="card-text">Walk around the grounds of the worlds first mill and take in the sites
+                            <p class="card-text">Walk around the grounds of the worlds first mill and take in the
+                                sites
                                 around
                                 the river Bollin</p>
                             <ul class="list-group-flush p-1">
