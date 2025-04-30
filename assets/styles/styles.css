@@ -281,6 +281,12 @@ img:hover + div {
   }
 }
 @media screen and (min-width: 768px) {
+  #image-stack p{
+    top: 70%;
+    left : 70%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+  }
   .mobile-hidden {
     display: contents;
   }
