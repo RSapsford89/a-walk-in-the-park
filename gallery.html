@@ -17,27 +17,27 @@
 </head>
 
 <body>
-    <!-- Landing page section. Should include the quick what we are and the CTA button and NavBar -->
+    <!-- Gallery page section. Should include gallery images in masonry style layout NavBar -->
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
-    <!-- <header class="container-fluid">                         -->
+    <header>
     <div class="container">
         <nav class="navbar fixed-top navbar-expand-md ">
             <div class="container navbar-color">
                 <a class="navbar-brand" href="index.html">A Walk In The Park</a>
-
                 <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa-solid fa-ellipsis-vertical"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto "><!--mb-0 mb-lg-0-->
+                    <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html"><i class="fa-solid fa-route"></i>
+                            <a class="nav-link"  href="index.html"><i class="fa-solid fa-route"></i>
                                 Walks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="gallery.html"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
+                            <a class="nav-link active" aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i>
+                                Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="#"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
@@ -47,7 +47,7 @@
             </div>
         </nav>
     </div>
-    <!-- </header> -->
+    </header>
     <!--                                         Main content-->
     <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
@@ -55,45 +55,72 @@
     <!-- Want to add a nice heading with some speil about the outside and why you should want to see it. -->
     <main class="container">
         <div class="gallery-masonry">
-            <div class="gallery-item" id="image-stack">                
-                <img class="img-fluid" id="parent-img" src="assets/images/ashworth-woods.jpg" alt="Ashworth Woods trail">
-                <div class=""><h2 id="overlay-img">Ashworth Woods, Norden</h2></div>
+            <div class="gallery-item" id="image-stack">
+                <img class="img-fluid" id="parent-img" src="assets/images/ashworth-woods.jpg"
+                    alt="Ashworth Woods trail">
+                <div class="">
+                    <h2 id="overlay-img">Ashworth Woods, Norden</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/blackstone-edge.jpg" alt="Blackstone Edge moorland view">
-                <div class=""><h2 id="overlay-img">Blackstone Edge, Littleborough</h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/blackstone-edge.jpg"
+                    alt="Blackstone Edge moorland view">
+                <div class="">
+                    <h2 id="overlay-img">Blackstone Edge, Littleborough</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/gear-waterfall.jpg" alt="Old mill gear and Waterfall">
-                <div class=""><h2 id="overlay-img">Carrs Woods, Rochdale</h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/gear-waterfall.jpg"
+                    alt="Old mill gear and Waterfall">
+                <div class="">
+                    <h2 id="overlay-img">Carr Woods, Rochdale</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/greenbooth-reservoir.jpg" alt="Waters edge of Greenbooth Reservoir">
-                <div class=""><h2 id="overlay-img">Greenbooth reservoir, Rochdale</h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/greenbooth-reservoir.jpg"
+                    alt="Waters edge of Greenbooth Reservoir">
+                <div class="">
+                    <h2 id="overlay-img">Greenbooth reservoir, Rochdale</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
                 <img class="img-fluid" id="parent-img" src="assets/images/healey-dell.jpg" alt="Healey Dell">
-                <div class=""><h2 id="overlay-img">Healey Dell, Whitworth</h2></div>
+                <div class="">
+                    <h2 id="overlay-img">Healey Dell, Whitworth</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/hero-img-3.jpg" alt="Cairn at sunset on Scout Moor">
-                <div class=""><h2 id="overlay-img">Scout Moor, Edenfield</h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/hero-img-3.jpg"
+                    alt="Cairn at sunset on Scout Moor">
+                <div class="">
+                    <h2 id="overlay-img">Scout Moor, Edenfield</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
                 <img class="img-fluid" id="parent-img" src="assets/images/lymm-park.jpg" alt="Misty trees at Lyme Park">
-                <div class=""><h2 id="overlay-img">Lyme Park, Disley</h2></div>
+                <div class="">
+                    <h2 id="overlay-img">Lyme Park, Disley</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/quarry-bank.jpg" alt="Walking the dog at Quarry Bank">
-                <div class=""><h2 id="overlay-img">Quarry Bank, Styal</h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/quarry-bank.jpg"
+                    alt="Walking the dog at Quarry Bank">
+                <div class="">
+                    <h2 id="overlay-img">Quarry Bank, Styal</h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
                 <img class="img-fluid" id="parent-img" src="assets/images/scout-moor-wall.jpg" alt="Scout Moor Wall">
-                <div class=""><h2 id="overlay-img">Lower Scout Moor Hill, Edenfield </h2></div>
+                <div class="">
+                    <h2 id="overlay-img">Lower Scout Moor Hill, Edenfield </h2>
+                </div>
             </div>
             <div class="gallery-item" id="image-stack">
-                <img class="img-fluid" id="parent-img" src="assets/images/upper-naden.jpg" alt="Mirror view at Upper Naden reservoir">
-                <div class=""><h2 id="overlay-img">Upper Naden reservoir, Norden </h2></div>
+                <img class="img-fluid" id="parent-img" src="assets/images/upper-naden.jpg"
+                    alt="Mirror view at Upper Naden reservoir">
+                <div class="">
+                    <h2 id="overlay-img">Upper Naden reservoir, Norden </h2>
+                </div>
             </div>
         </div>
     </main>
