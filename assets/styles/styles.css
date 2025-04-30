@@ -169,8 +169,8 @@ p {
   background-color: #aa6fb5;
   color: white;
   border-radius: 5%;
-  padding: 10px;
-  font-size: 1.75rem;
+  padding: 5px;
+  font-size: 1rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 /* styling for table */
