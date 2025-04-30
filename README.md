@@ -38,23 +38,25 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 
 ## Future Improvements
 
-* Gallery hover to give image description
-* floating sign-up button at the side
+
+
 * signup btn should change to better contrasting colour
 * signup btn initial state colours need setting
 * add img alt texts
-* finalise card info - stop scaling up at laptop size. btn to open new page link to gmaps https://www.google.co.uk/maps/search/PostCodeHere
-* accordion walk info instead of the table
+
+* 
 * add table styles if keeping
 * get rid of accessiblity card section?
-* get rid of button due to reliance on JS for desired function?
+
 * fix footer colour issues
 * overlay first line to the embed video in sm view?
 * standardise all margins for divs
 * semantics need adding/checking
 * are img titles req?
 * reduce max vp width at large sizes - its too wide!
-* navbar consistency - different font and size from home to gallery page
+* validation - validate forms
+* AmIResponsive
+* HTML and CSS validation
 
 
 
