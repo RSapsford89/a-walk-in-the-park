@@ -44,7 +44,6 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * signup btn initial state colours need setting
 * add img alt texts
 
-* 
 * add table styles if keeping
 * get rid of accessiblity card section?
 
@@ -54,7 +53,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * semantics need adding/checking
 * are img titles req?
 * reduce max vp width at large sizes - its too wide!
-* validation - validate forms
+*
 * AmIResponsive
 * HTML and CSS validation
 

@@ -108,31 +108,33 @@
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Newsletter signup form</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-6 mb-3">
-                                    <label for="firstName" class="form-label">First Name: </label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                                </div>
-                                <div class="col-12 col-md-6 mb-3">
-                                    <label for="lastName" class="form-label">First Name: </label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-                                </div>
-                                <div class="col-12">
-                                    <label for="emailInput" class="form-label">Email address: </label>
-                                    <input type="email" class="form-control" id="emailInput"
-                                        placeholder="someone@somewhere.com" aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                    <form action="https://formdump.codeinstitute.net/" method="post" id="signup-form">
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name: </label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">First Name: </label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="emailInput" class="form-label">Email address: </label>
+                                        <input type="email" class="form-control" id="emailInput" name="emailInput"
+                                            placeholder="someone@somewhere.com" aria-describedby="emailHelp" required>
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary">Sign up</button>
-                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Sign up</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -153,13 +155,13 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Table of walks
+                                A quick reference of all our walks
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show"
+                        <div id="collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Below is a list of walks collected from around the Manchester area. 
+                                Below is a list of walks collected from around the Manchester area.
                                 <table
                                     class="table table-responsive table-hover table-borderless table-sm mobile-hidden">
                                     <thead>
