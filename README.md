@@ -47,7 +47,7 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * signup btn should change to better contrasting colour
 * signup btn initial state colours need setting
 * add img alt texts
-
+* sort out the buttons! Colors once highlighted/pressed should not be blue.
 * add table styles if keeping -looks ok in white, but need to scale for mobile
 * get rid of accessiblity card section?
 

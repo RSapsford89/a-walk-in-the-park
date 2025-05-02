@@ -53,39 +53,47 @@
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
     <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <!-- Want to add a nice heading with some speil about the outside and why you should want to see it. -->
-    
+    <main class="container">
     <div class="container" id="contact-header">
         <h1>Contact Us</h1>
         <h2>Feel free to contact us by filling out the form below</h2>
         <hr>
     </div>
     <section id="form-section">
-        <main class="container">
+        
             <form action="https://formdump.codeinstitute.net/" method="post" id="contact-us">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                <div class="row mx-3">
+                    <div class="col-12 col-md-6 mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <label for="LastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Last Name" required>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                <div class="row mx-3">
+                    <div class="col-12 col-md-6 mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <label for="dropdown" class="form-label">Select a Topic</label>
+                        <select class="form-select" id="dropdown" name="topic" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="feedback">Site feedback</option>
+                            <option value="gallery">Question about the gallery</option>
+                            <option value="question-walk">Question about a walk</option>
+                            <option value="support">Support</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="dropdown" class="form-label">Select a Topic</label>
-                    <select class="form-select" id="dropdown" name="topic" required>
-                        <option value="" disabled selected>Select an option</option>
-                        <option value="general">General Inquiry</option>
-                        <option value="feedback">Site feedback</option>
-                        <option value="gallery">Question about the gallery</option>
-                        <option value="question-walk">Question about a walk</option>
-                        <option value="support">Support</option>
-                    </select>
-                </div>
-                <div class="mb-3">
+                <div class="mb-3 mx-3">
                     <label for="message" class="form-label">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="row w-50 pb-4 mx-auto"><button type="submit" class="btn btn-primary">Submit</button></div>
             </form>
         </main>
     </section>
