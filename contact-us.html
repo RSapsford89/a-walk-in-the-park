@@ -36,11 +36,11 @@
                                 Walks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i>
+                            <a class="nav-link " aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i>
                                 Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -53,77 +53,40 @@
       and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
     <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <!-- Want to add a nice heading with some speil about the outside and why you should want to see it. -->
-    <section id="gallery-section">
+    
+    <div class="container" id="contact-header">
+        <h1>Contact Us</h1>
+        <h2>Feel free to contact us by filling out the form below</h2>
+        <hr>
+    </div>
+    <section id="form-section">
         <main class="container">
-            <div class="gallery-masonry">
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/ashworth-woods.jpg"
-                        alt="Ashworth Woods trail">
-                    <div class="">
-                        <h2 id="overlay-img">Ashworth Woods, Norden</h2>
-                    </div>
+            <form action="https://formdump.codeinstitute.net/" method="post" id="contact-us">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/blackstone-edge.jpg"
-                        alt="Blackstone Edge moorland view">
-                    <div class="">
-                        <h2 id="overlay-img">Blackstone Edge, Littleborough</h2>
-                    </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/gear-waterfall.jpg"
-                        alt="Old mill gear and Waterfall">
-                    <div class="">
-                        <h2 id="overlay-img">Carr Woods, Rochdale</h2>
-                    </div>
+                <div class="mb-3">
+                    <label for="dropdown" class="form-label">Select a Topic</label>
+                    <select class="form-select" id="dropdown" name="topic" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Site feedback</option>
+                        <option value="gallery">Question about the gallery</option>
+                        <option value="question-walk">Question about a walk</option>
+                        <option value="support">Support</option>
+                    </select>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/greenbooth-reservoir.jpg"
-                        alt="Waters edge of Greenbooth Reservoir">
-                    <div class="">
-                        <h2 id="overlay-img">Greenbooth reservoir, Rochdale</h2>
-                    </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/healey-dell.jpg" alt="Healey Dell">
-                    <div class="">
-                        <h2 id="overlay-img">Healey Dell, Whitworth</h2>
-                    </div>
-                </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/hero-img-3.jpg"
-                        alt="Cairn at sunset on Scout Moor">
-                    <div class="">
-                        <h2 id="overlay-img">Scout Moor, Edenfield</h2>
-                    </div>
-                </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/lymm-park.jpg" alt="Misty trees at Lyme Park">
-                    <div class="">
-                        <h2 id="overlay-img">Lyme Park, Disley</h2>
-                    </div>
-                </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/quarry-bank.jpg"
-                        alt="Walking the dog at Quarry Bank">
-                    <div class="">
-                        <h2 id="overlay-img">Quarry Bank, Styal</h2>
-                    </div>
-                </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/scout-moor-wall.jpg" alt="Scout Moor Wall">
-                    <div class="">
-                        <h2 id="overlay-img">Lower Scout Moor Hill, Edenfield </h2>
-                    </div>
-                </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/upper-naden.jpg"
-                        alt="Mirror view at Upper Naden reservoir">
-                    <div class="">
-                        <h2 id="overlay-img">Upper Naden reservoir, Norden </h2>
-                    </div>
-                </div>
-            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </main>
     </section>
     <!-- footer -->

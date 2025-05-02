@@ -6,11 +6,15 @@
 Who, Why, Because...
 
 1. A visitor to the area of Manchester wants to find a list of walks accompanied with images created by locals to pick a walk before investing travel time.
+- Bootstrap cards provide an image, location text and button which opens to show a google maps pin of the location.
 2. A new visitor to the site wants to find local curated walks which highlight how long and difficult a walk is to ensure it is appropriate for their level of fitness.
+- Bootstrap cards contain walk length and difficulty rating in stars
 3. A Frequent site user wants to view more/ new walks in a date of post format added to the listings before picking one for the weekend.  
 4. A frequent user wants to see if the walks suit their families fitness or accessbility level when viewing walk cards.
 5. A returning user wants to sign up for the newsletter so they can be kept informed of any newly added walks and also to send a list of selected walks to their inbox.
+- a fixed signup button is in the bottom right corner. Clicking this opens a modal form which requires validated Name and Email to subscribe.
 6. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
+- The contact us page has a form where free text can be entered along with selecting a reason for contact in a drop down box.
 7. A frequent user wants to be kept up to date and sign up to the newsletter so they do not need to visit the site to check for updates daily.
 ## Features
 ### Homepage
