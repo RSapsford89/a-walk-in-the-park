@@ -42,7 +42,7 @@ ashworth-colours {
   --primary-font-color: #1e1d10;
   --secondary-color: #048a81;
   --secondary-font-color: #7e7a51;
-  --tertiary-color: #916953;
+  --tertiary-color: #b0b0a6;
   --rgba-tertiary: rgba(145, 105, 83, 0.6);
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
@@ -188,7 +188,7 @@ p {
 /* styling for table */
 /* footer */
 footer {
-  background-color: #b0b0a6;
+  background-color: var(--secondary-color);
 }
 #social-networks {
   display: flex;
@@ -197,7 +197,7 @@ footer {
   justify-content: space-around;
 }
 #social-networks * {
-  color: #aa6fb5;
+  color: var(--tertiary-color);
 }
 #social-networks li {
   list-style: none;
