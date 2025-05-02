@@ -44,16 +44,14 @@ FontAwesome used to get some outdoor and walking related icons for use throughou
 * signup btn initial state colours need setting
 * add img alt texts
 
-* add table styles if keeping
+* add table styles if keeping -looks ok in white, but need to scale for mobile
 * get rid of accessiblity card section?
 
 * fix footer colour issues
 * overlay first line to the embed video in sm view?
-* standardise all margins for divs
 * semantics need adding/checking
-* are img titles req?
+* are img titles req? y
 * reduce max vp width at large sizes - its too wide!
-*
 * AmIResponsive
 * HTML and CSS validation
 
