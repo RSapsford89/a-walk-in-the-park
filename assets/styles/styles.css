@@ -140,6 +140,11 @@ p {
 .card {
   max-width: 400px;
 }
+.card:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  transform: scale(1.02);
+  transition-duration: 0.4s;
+}
 .card-title {
   font-family: var(--title-font);
   color: var(--primary-color);
