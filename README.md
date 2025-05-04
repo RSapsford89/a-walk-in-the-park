@@ -54,7 +54,20 @@ For the landing video, Coverr was used: https://coverr.co/
 
 Microsoft's Copilot AI was used to help generate the bee image. 
 ## Testing
+Testing was carried out using the following methods:
+* running Lighthouse on each live page
+* putting HTML through the W3C validator on each live page
+* putting CSS through the W3C validator on each live page
+* responsiveness manual testing from 320px wide to 1440px wide screens
+* form entry manual testing
+* user testing for bug and feedback
+### Lighthouse reports
+#### Contact Us page
+![alt text](image-1.png)
 
+#### Gallery page
+![alt text](image-2.png)
+Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats
 ## Deployment
 Deployment is done using Github and Github Pages. 
 
@@ -64,7 +77,7 @@ https://github.com/RSapsford89/a-walk-in-the-park
 
 The repository consists of the main branch and one merged branch 'new-homepage-layout'. Midway through the project, feedback suggested a more spacious and better colour palette would suit the site's design better. Once the new page layout and colours had been built and tested on it's own branch it could then be merged to the Main branch.
 
-Github Projects was used to log some bugs and feature changes through the development of the site. This is the kanban style visual layout to help monitor tasks an also mark off completed ones:
+Github Projects was used to log some bugs and feature changes through the development of the site. This is the kanban style visual layout to help monitor tasks and also mark off completed ones:
  https://github.com/users/RSapsford89/projects/1
 
 
@@ -81,13 +94,13 @@ Hosting is carried out via Github Pages. The creation of this is done by choosin
 
 
 * signup btn should change to better contrasting colour
-* signup btn initial state colours need setting
+* 
 * add img alt texts
 * sort out the buttons! Colors once highlighted/pressed should not be blue.
 * add table styles if keeping -looks ok in white, but need to scale for mobile
 * get rid of accessiblity card section?
 
-* fix footer colour issues
+* 
 * overlay first line to the embed video in sm view?
 * semantics need adding/checking
 * are img titles req? y
