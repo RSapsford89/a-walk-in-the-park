@@ -62,6 +62,8 @@ Testing was carried out using the following methods:
 * form entry manual testing
 * user testing for bug and feedback
 ### Lighthouse reports
+#### index page
+![alt text](image-3.png)
 #### Contact Us page
 ![alt text](image-1.png)
 
