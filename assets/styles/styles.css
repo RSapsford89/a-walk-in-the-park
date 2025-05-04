@@ -233,7 +233,8 @@ footer {
   top: 10px;
   padding-left: 5px;
   color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
 }
 .gallery-masonry img:hover {
   opacity: 0.3;
