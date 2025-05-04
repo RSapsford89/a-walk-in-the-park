@@ -215,6 +215,7 @@ footer {
 }
 
 .gallery-item {
+  position: relative;
   break-inside: avoid;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -226,14 +227,19 @@ footer {
   display: block;
   object-fit: cover;
 }
-.gallery-item div {
+.gallery-item h2 {
   display: none;
+  position: absolute;
+  top: 10px;
+  padding-left: 5px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .gallery-masonry img:hover {
   opacity: 0.3;
   transition: opacity 0.4s ease-in-out;
 }
-img:hover + div {
+img:hover + h2 {
   display: block;
 }
 .column {

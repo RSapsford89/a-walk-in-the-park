@@ -1,168 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head class="container-fluid">
-    <!-- SEO, ARIA, tags, fonts, favicon -->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="A Walk In The Park. Walking group for walkers around Manchester. Curated local walks.">
+    <meta name="description" content="A Walk In The Park. Walking group for walkers around Manchester. Curated local walks.">
     <meta name="keywords" content="Walking, Manchester Walking, Local Walks, Rambling, Manchester, England">
     <title>A Walk In The Park</title>
-    <!-- bootstrap -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <!-- local style sheet comes after bootstrap! -->
+    <!-- Local Stylesheet -->
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body>
-    <!-- Gallery page section. Should include gallery images in masonry style layout NavBar -->
-    <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
+    <!-- Navbar -->
     <header>
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-md ">
-            <div class="container navbar-color">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-md navbar-color">
                 <a class="navbar-brand" href="index.html">A Walk In The Park</a>
-                <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa-solid fa-ellipsis-vertical"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto ">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link"  href="index.html"><i class="fa-solid fa-person-hiking"></i>
-                                Walks</a>
+                            <a class="nav-link" href="index.html"><i class="fa-solid fa-person-hiking"></i> Walks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i>
-                                Gallery</a>
+                            <a class="nav-link active" aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                            <a class="nav-link" href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
     </header>
-    <!--                                         Main content-->
-    <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
-      and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
-    <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
-    <!-- Want to add a nice heading with some speil about the outside and why you should want to see it. -->
+
+    <!-- Gallery Section -->
     <section id="gallery-section">
         <main class="container">
             <div class="gallery-masonry">
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/ashworth-woods.jpg"
-                        alt="Ashworth Woods trail">
-                    <div class="">
-                        <h2 id="overlay-img">Ashworth Woods, Norden</h2>
-                    </div>
+                <!-- Gallery Items -->
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/ashworth-woods.jpg" alt="Ashworth Woods trail">
+                    <h2>Ashworth Woods, Norden</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/blackstone-edge.jpg"
-                        alt="Blackstone Edge moorland view">
-                    <div class="">
-                        <h2 id="overlay-img">Blackstone Edge, Littleborough</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/blackstone-edge.jpg" alt="Blackstone Edge moorland view">
+                    <h2>Blackstone Edge, Littleborough</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/gear-waterfall.jpg"
-                        alt="Old mill gear and Waterfall">
-                    <div class="">
-                        <h2 id="overlay-img">Carr Woods, Rochdale</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/gear-waterfall.jpg" alt="Old mill gear and Waterfall">
+                    <h2>Carr Woods, Rochdale</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/greenbooth-reservoir.jpg"
-                        alt="Waters edge of Greenbooth Reservoir">
-                    <div class="">
-                        <h2 id="overlay-img">Greenbooth reservoir, Rochdale</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/greenbooth-reservoir.jpg" alt="Waters edge of Greenbooth Reservoir">
+                    <h2>Greenbooth Reservoir, Rochdale</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/healey-dell.jpg" alt="Healey Dell">
-                    <div class="">
-                        <h2 id="overlay-img">Healey Dell, Whitworth</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/healey-dell.jpg" alt="Healey Dell">
+                    <h2>Healey Dell, Whitworth</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/hero-img-3.jpg"
-                        alt="Cairn at sunset on Scout Moor">
-                    <div class="">
-                        <h2 id="overlay-img">Scout Moor, Edenfield</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/hero-img-3.jpg" alt="Cairn at sunset on Scout Moor">
+                    <h2>Scout Moor, Edenfield</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/lymm-park.jpg" alt="Misty trees at Lyme Park">
-                    <div class="">
-                        <h2 id="overlay-img">Lyme Park, Disley</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/lymm-park.jpg" alt="Misty trees at Lyme Park">
+                    <h2>Lyme Park, Disley</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/quarry-bank.jpg"
-                        alt="Walking the dog at Quarry Bank">
-                    <div class="">
-                        <h2 id="overlay-img">Quarry Bank, Styal</h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/quarry-bank.jpg" alt="Walking the dog at Quarry Bank">
+                    <h2>Quarry Bank, Styal</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/scout-moor-wall.jpg" alt="Scout Moor Wall">
-                    <div class="">
-                        <h2 id="overlay-img">Lower Scout Moor Hill, Edenfield </h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/scout-moor-wall.jpg" alt="Scout Moor Wall">
+                    <h2>Lower Scout Moor Hill, Edenfield</h2>
                 </div>
-                <div class="gallery-item" id="image-stack">
-                    <img class="img-fluid" id="parent-img" src="assets/images/upper-naden.jpg"
-                        alt="Mirror view at Upper Naden reservoir">
-                    <div class="">
-                        <h2 id="overlay-img">Upper Naden reservoir, Norden </h2>
-                    </div>
+                <div class="gallery-item">
+                    <img class="img-fluid" src="assets/images/upper-naden.jpg" alt="Mirror view at Upper Naden Reservoir">
+                    <h2>Upper Naden Reservoir, Norden</h2>
                 </div>
             </div>
-            
         </main>
     </section>
-    <!-- footer -->
-    <section id="footer-section">
+
+    <!-- Footer -->
+    <footer>
         <div class="container">
-            <div class="row">
-                <footer>
-                    <ul id="social-networks">
-                        <li>
-                            <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                                aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                    class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                                aria-label="Visit our twitter page (opens in a new tab)"><i
-                                    class="fa-brands fa-x-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                                aria-label="Visit our YouTube page (opens in a new tab)"><i
-                                    class="fa-brands fa-square-youtube"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.Instagram.com" target="_blank" rel="noopener"
-                                aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                    class="fa-brands fa-square-instagram"></i></a>
-                        </li>
-                    </ul>
-                </footer>
-            </div>
+            <ul id="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page"><i class="fa-brands fa-square-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i class="fa-brands fa-square-instagram"></i></a></li>
+            </ul>
         </div>
-    </section>
-    <!-- bootstrap JS -->
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4d2d2c68b5.js" crossorigin="anonymous"></script>
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer></script>
+    <script src="https://kit.fontawesome.com/4d2d2c68b5.js" crossorigin="anonymous" defer></script>
 </body>
 
 </html>
