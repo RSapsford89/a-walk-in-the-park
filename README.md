@@ -1,7 +1,7 @@
 ﻿# a-walk-in-the-park
 ![alt text](image.png)
 ## project purpose
- A site for local walkers or visitors to the area of Greater Manchester. The sites main purpose is to get people to sign up to the newsletter by engaging those who are interested in finding both popular walks and the hidden gems for those seeking a more quiet and natural atmosphere. The aim of the site's design will be to engage users by giving them easy viewing and finding of walks with a gallery to entice them to sign-up and walk in the area. Walks will be rated, give estimated walk distance, location and show an images in each card.
+ A site for local walkers or visitors to the area of Greater Manchester. The sites main purpose is to get people to sign up to the newsletter by engaging those who are interested in finding both popular walks and the hidden gems for those seeking a more quiet and natural atmosphere. The aim of the site's design will be to engage users by giving them easy viewing and finding of walks with a gallery to entice them to sign-up and walk in the area. Walks will be rated, give estimated walk distance, location and show an image in each card.
 ## User Stories
 Who, Why, Because...
 
@@ -17,7 +17,8 @@ Who, Why, Because...
 6. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
 - Essential: The contact us page has a form where free text can be entered along with selecting a reason for contact in a drop down box.
 7. A frequent user wants to view an image gallery and find out where the picture was taken so this place can be picked for walking.
-- Nice to have: A gallery page of all the pictures in an appealing masonry format should have CSS `hover` rules. Display the image location overlayed with the image.
+- Essential: A gallery page of all the pictures in an appealing masonry format.
+-Nice to have: Should have CSS `hover` rules. Display the image location overlayed with the image.
 ## Features
 Bootstrap encourages Mobile first development. Bootstrap's design is most efficient on mobile devices and readily scales to portrait, tablet, laptop and greater sized screens whilst maintaining responsiveness. 
 ### Homepage
@@ -25,7 +26,7 @@ Bootstrap encourages Mobile first development. Bootstrap's design is most effici
 
  ![alt text](image-9.png)![alt text](image-6.png)![alt text](image-7.png)![alt text](image-8.png)
  #### Modal form
- The modal opens on clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
+ The modal opens upon clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
  ### Gallery 
  This page contains a masonry styled image gallery. On mouse hover, some image text is overlayed.
 ### Design
@@ -77,8 +78,8 @@ Testing was carried out using the following methods:
 ![alt text](image-1.png)
 
 #### Gallery page
-![alt text](image-2.png)
-Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats
+![alt text](image-15.png)
+Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats.
 ## Deployment
 Deployment is done using Github and Github Pages. 
 
