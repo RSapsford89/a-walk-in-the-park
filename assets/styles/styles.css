@@ -110,7 +110,7 @@ p {
   text-align: center;
   padding-bottom: 1rem;
 }
-.btn-primary {
+.btn-card {/* button for cards */
   background-color: #b4ceb3;
   color: #076152;
   border: none;
@@ -172,14 +172,14 @@ p {
 /* footer */
 footer {
   background-color: var(--secondary-color);
+    padding: 20px 0;
 }
 #social-networks {
   display: flex;
   text-align: center;
-  padding: 20px 0;
   justify-content: space-around;
 }
-#social-networks * {
+#social-networks a {
   color: var(--tertiary-color);
 }
 #social-networks li {
