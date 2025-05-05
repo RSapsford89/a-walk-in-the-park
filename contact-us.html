@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head class="container-fluid">
+<head>
     <!-- SEO, ARIA, tags, fonts, favicon -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,33 +22,35 @@
     <!-- Gallery page section. Should include gallery images in masonry style layout NavBar -->
     <!-- navbar. Has page title, Walks, Gallery and Contact Us. Burger drop down -->
     <header>
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-md ">
-            <div class="container navbar-color">
-                <a class="navbar-brand" href="index.html">A Walk In The Park</a>
-                <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa-solid fa-ellipsis-vertical"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link"  href="index.html"><i class="fa-solid fa-person-hiking"></i>
-                                Walks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="gallery.html"><i class="fa-solid fa-camera-retro"></i>
-                                Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-md ">
+                <div class="container navbar-color">
+                    <a class="navbar-brand" href="index.html">A Walk In The Park</a>
+                    <button class="navbar-toggler text-sm-center" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-ellipsis-vertical"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-person-hiking"></i>
+                                    Walks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="gallery.html"><i
+                                        class="fa-solid fa-camera-retro"></i>
+                                    Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact-us.html"><i
+                                        class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
     </header>
     <!--                                         Main content-->
     <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
@@ -56,27 +58,30 @@
     <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
     <!-- Want to add a nice heading with some speil about the outside and why you should want to see it. -->
     <main class="container">
-    <div class="container" id="contact-header">
-        <h1>Contact Us</h1>
-        <h2>Feel free to contact us by filling out the form below</h2>
-        <hr>
-    </div>
-    <section id="form-section">        
+        <div class="container" id="contact-header">
+            <h1>Contact Us</h1>
+            <h2>Feel free to contact us by filling out the form below</h2>
+            <hr>
+        </div>
+        <section id="form-section">
             <form action="https://formdump.codeinstitute.net/" method="post" id="contact-us">
                 <div class="row mx-3">
                     <div class="col-12 col-md-6 mb-3">
                         <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name"
+                            required>
                     </div>
                     <div class="col-12 col-md-6 mb-3">
                         <label for="LastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Last Name" required>
+                        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Last Name"
+                            required>
                     </div>
                 </div>
                 <div class="row mx-3">
                     <div class="col-12 col-md-6 mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com"
+                            required>
                     </div>
                     <div class="col-12 col-md-6 mb-3">
                         <label for="dropdown" class="form-label">Select a Topic</label>
@@ -92,12 +97,14 @@
                 </div>
                 <div class="mb-3 mx-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="4"
+                        placeholder="Your message here..." required></textarea>
                 </div>
                 <div class="row w-50 pb-4 mx-auto"><button type="submit" class="btn btn-card">Submit</button></div>
             </form>
-        </main>
-    </section>
+        </section>
+    </main>
+    
     <!-- footer -->
     <section id="footer-section">
         <div class="container">
