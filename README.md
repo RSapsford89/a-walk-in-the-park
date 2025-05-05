@@ -85,10 +85,11 @@ Initial testing results show clear performance issues related to image loading. 
 ![alt text](readme-images/cssValidation.png)
 ### HTML validation
 #### Index
-
+![alt text](readme-images/index-html-pass.jpg)
 #### Gallery
-
+![alt text](readme-images/gallery-html-pass.jpg)
 #### Contact Us
+![alt text](readme-images/contactus-html-pass.jpg)
 ## Deployment
 Deployment is done using Github and Github Pages. 
 
@@ -113,15 +114,10 @@ Hosting is carried out via Github Pages. The creation of this is done by choosin
 ## Future Improvements
 
 
-
+* should the icons in the card have a hidden <p> to describe the content?
 * signup btn should change to better contrasting colour
-* sort out the buttons! Colors once highlighted/pressed should not be blue.
-* overlay first line to the embed video in sm view?
-* semantics need adding/checking
-* are img titles req? y
-* reduce max vp width at large sizes - its too wide!
-* AmIResponsive
-* HTML and CSS validation
+* semantics need checking
+* HTML and CSS validation - passes, need screenshots
 * cards need hidden descriptive words for accessibility reasons! (distance for the map icon etx)
 
 
