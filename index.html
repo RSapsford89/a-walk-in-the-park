@@ -44,7 +44,8 @@
                                         Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="contact-us.html"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                                    <a class="nav-link " href="contact-us.html"><i class="fa-solid fa-paper-plane"></i>
+                                        Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -54,53 +55,53 @@
         </header>
     </section>
 
-    <!-- </header> -->
     <!--                                         Main content-->
-    <!-- bootstrap grid with 2 rows. 1 row of 2 items and 1 of 1 item(the img) mobile view is one long column,
-      and lg becomes 2 columns - 1 of 2 items, 1 of 1 item. -->
-    <!-- can the hidden item be updated to be 1 item? 1 column when small, 2 columns when large? Format may not work -->
+    <!-- bootstrap grid used to create 2 columns on tablet size and 3 on larger screens -->
     <main class="container">
-        <div class="container intro">
-            <h1 class="text-sm-center">A Walk In The Park</h1>
-            <hr>
-            <div class="row">
-                <div class="col-12 col-md-6 text-sm-start">
-                    <h2>A place to find curated walks around Manchester</h2>
-                </div>
-                <div class="col-12 col-md-6 my-3">
-
-                    <video src="assets/images/coverr-walking-through-the-forest-2015-1080p.mp4" class="w-100" controls
-                        autoplay loop muted>You browser does not support the video tag.</video>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 text-sm-end order-md-2">
-                    <div>
-                        <h3>Escape the buzz of the city... </h3>
-                        <p></p>
+        <section>
+            <div class="container intro">
+                <h1 class="text-sm-center">A Walk In The Park</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-md-6 text-sm-start">
+                        <h2>A place to find curated walks around Manchester</h2>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 my-3">
-                    <div id="image-stack">
-                        <img class="img-fluid mobile-image" id="parent-img" src="assets/images/manchester-city.jpg"
-                            alt="Aerial view of Manchester city">
-                        <img class="img-fluid img-opacity" id="overlay-img" src="assets/images/bee-cutout.png"
-                            alt="Bee stencil overlay">
-                        <p id="overlay-img">Refresh your mind and body with one of our walks below...
-                        </p>
+                    <div class="col-12 col-md-6 my-3">
+                        <video src="assets/images/coverr-walking-through-the-forest-2015-1080p.mp4" class="w-100" controls
+                            autoplay loop muted>You browser does not support the video tag.</video>
                     </div>
                 </div>
             </div>
-            <div class="col text-center my-3">
-                <button type="button" class="btn btn-primary btn-lg" id="btn-float" data-bs-toggle="modal"
-                    data-bs-target="#modalForm"><i class="fa-solid fa-envelope-open-text"></i><br>Sign-up</button>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 text-sm-end order-md-2">
+                        <div>
+                            <h3>Escape the buzz of the city... </h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 my-3">
+                        <div id="image-stack">
+                            <img class="img-fluid mobile-image" id="parent-img" src="assets/images/manchester-city.jpg"
+                                alt="Aerial view of Manchester city">
+                            <img class="img-fluid img-opacity" id="overlay-img" src="assets/images/bee-cutout.png"
+                                alt="Bee stencil overlay">
+                            <p id="overlay-img">Refresh your mind and body with one of our walks below...
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <hr>
+        </section>
+
+        <div class="col text-center my-3">
+            <button type="button" class="btn btn-primary btn-lg" id="btn-float" data-bs-toggle="modal"
+                data-bs-target="#modalForm"><i class="fa-solid fa-envelope-open-text"></i><br>Sign-up</button>
         </div>
+        <hr>
         <!-- modal here -->
         <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="modalForm" aria-hidden="true">
             <div class="modal-dialog">
@@ -115,17 +116,20 @@
                                 <div class="row">
                                     <div class="col-12 col-md-6 mb-3">
                                         <label for="firstName" class="form-label">First Name: </label>
-                                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                                        <input type="text" class="form-control" id="firstName" name="firstName"
+                                            placeholder="First Name" required>
                                     </div>
                                     <div class="col-12 col-md-6 mb-3">
                                         <label for="lastName" class="form-label">First Name: </label>
-                                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                                        <input type="text" class="form-control" id="lastName" name="lastName"
+                                            placeholder="Last Name" required>
                                     </div>
                                     <div class="col-12">
                                         <label for="emailInput" class="form-label">Email address: </label>
                                         <input type="email" class="form-control" id="emailInput" name="emailInput"
                                             placeholder="someone@somewhere.com" aria-describedby="emailHelp" required>
-                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.
                                         </div>
                                     </div>
                                 </div>
@@ -151,8 +155,8 @@
             <div class="accordion w-100 w-md-60 mx-auto mobile-hidden mb-1" id="walks-accordion">
                 <div class="accordion-item  mb-3">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                            aria-expanded="false" aria-controls="collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             A quick reference of all our walks
                         </button>
                     </h2>
@@ -208,7 +212,7 @@
             <!--                            start cards section here -->
             <!-- finish img-overlay formatting: buton stretch along bottom, list colours, title colours  -->
             <div class="row">
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/ashworth-woods.jpg" class="card-img-top" alt="ashworth woods trail">
                         <div class="card-body">
@@ -229,8 +233,8 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                </article>
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/healey-dell.jpg" class="card-img-top"
                             alt="Healey Dell waterfall and viaduct">
@@ -252,8 +256,8 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                </article>
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/lymm-park.jpg" class="card-img-top" alt="Lymm Park trees in the mist">
                         <div class="card-body">
@@ -278,8 +282,8 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                </article>
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/quarry-bank.jpg" class="card-img-top"
                             alt="Quarry Bank dog walking through the trees">
@@ -302,8 +306,8 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                </article>
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/turton-boats.jpg" class="card-img-top"
                             alt="sail boats on Turton reservoir">
@@ -326,8 +330,8 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 mb-3">
+                </article>
+                <article class="col-12 col-md-6 col-xl-4 mb-3">
                     <div class="card mx-auto">
                         <img src="assets/images/gear-waterfall.jpg" class="card-img-top"
                             alt="Carr woods looking through a gear at a waterfall">
@@ -349,7 +353,7 @@
                                 class="btn btn-primary w-100">Open map pin</a>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </section>
     </main>
