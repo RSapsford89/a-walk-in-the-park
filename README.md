@@ -42,8 +42,11 @@ Main block text font uses Amiko.
 
 Images used are of local areas around the Greater Manchester area and other than the video are all genuine images. Images were selected to highlight the areas of natural beauty and to insipire site visitors to want to experience the areas shown themselves. 
 ### Wireframes
-
-
+![Home page](image-10.png)
+![Home page - cards](image-11.png)
+![Gallery page](image-12.png)
+![Contact Us page](image-13.png)
+![Sign Up modal window](image-14.png)
 ## Technology
 Bootstrap 5.3* used to assist with the styling and responsiveness. In particular, it was required for the gallery and Walk cards.
 
