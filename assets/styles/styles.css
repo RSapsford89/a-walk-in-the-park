@@ -1,6 +1,6 @@
 /* fonts */
 /* Rubik Dirt for big titles, Montserrat Alternates for smaller headings and Amiko for blocks of text  */
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Montserrat+Alternates:ital@0;1&family=Rubik+Dirt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Montserrat+Alternates:ital@0;1&family=Rubik+Dirt&display=swap");
 /* Colors */
 /* https://coolors.co/ecebe4-916953-056152-2e294e-429ea6 */
 /* Font Awesome Icons 
@@ -52,11 +52,11 @@ body {
   margin: 42px 10px;
 }
 main {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     to bottom,
     rgba(4, 138, 129, 0.5),
     rgba(148, 187, 85, 1)
-    );
+  );
 }
 header {
   font-family: "Rubik Dirt", sans-serif;
@@ -110,7 +110,8 @@ p {
   text-align: center;
   padding-bottom: 1rem;
 }
-.btn-card {/* button for cards */
+.btn-card {
+  /* button for cards */
   background-color: #b4ceb3;
   color: #076152;
   border: none;
@@ -118,7 +119,7 @@ p {
 .card {
   max-width: 400px;
 }
-.card:hover{
+.card:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
   transform: scale(1.02);
   transition-duration: 0.4s;
@@ -133,28 +134,19 @@ p {
 #image-stack {
   position: relative;
 }
-#image-stack p{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 75%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 20px 5px;
-  color:#ffffff;
-  background-color: rgba(170, 111, 181, 0.7);
-}
 
 #parent-img {
   position: relative;
-  z-index: 1;
+
 }
 
 #overlay-img {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  top: 33%;
+  width: 75%;
+  padding: 20px 20px;
+  color: #ffffff;
+  background-color: rgba(170, 111, 181, 0.7);
 }
 #btn-float {
   position: fixed;
@@ -172,7 +164,7 @@ p {
 /* footer */
 footer {
   background-color: var(--secondary-color);
-    padding: 20px 0;
+  padding: 20px 0;
 }
 #social-networks {
   display: flex;
@@ -222,7 +214,6 @@ img:hover + h2 {
   display: block;
 }
 
-
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .gallery-masonry {
@@ -245,9 +236,9 @@ img:hover + h2 {
   }
 }
 @media screen and (min-width: 768px) {
-  #image-stack p{
+  #image-stack p {
     top: 70%;
-    left : 70%;
+    left: 70%;
     width: 50%;
     transform: translate(-50%, -50%);
   }

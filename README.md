@@ -80,7 +80,7 @@ Testing was carried out using the following methods:
 
 #### Gallery page
 ![alt text](readme-images/image-15.png)
-Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats.
+Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. The 
 ### CSS validation
 ![alt text](readme-images/cssValidation.png)
 ### HTML validation
