@@ -81,6 +81,14 @@ Testing was carried out using the following methods:
 #### Gallery page
 ![alt text](readme-images/image-15.png)
 Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats.
+### CSS validation
+![alt text](readme-images/cssValidation.png)
+### HTML validation
+#### Index
+
+#### Gallery
+
+#### Contact Us
 ## Deployment
 Deployment is done using Github and Github Pages. 
 
