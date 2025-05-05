@@ -12,6 +12,7 @@ Who, Why, Because...
 3. A Frequent site user wants to view more/ new walks in a date of post format added to the listings before picking one for the weekend. 
 - Low value: This feature utilises JS and is out of scope. 
 4. A frequent user wants to see if the walks suit their families fitness or accessbility level when viewing walk cards.
+-Nice to have: Requires a set of icons which would be easily identifiable for their purpose such as a wheelchair for wheelchair access. 
 5. A returning user wants to sign up for the newsletter so they can be kept informed of any newly added walks and also to send a list of selected walks to their inbox.
 - Essential: A fixed signup button is in the bottom right corner. Clicking this opens a modal form which requires validated Name and Email to subscribe. In this application, data is sent to a mock database (codeinstitute form dump)
 6. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
