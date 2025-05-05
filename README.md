@@ -1,5 +1,5 @@
 ﻿# a-walk-in-the-park
-![alt text](image.png)
+![alt text](readme-images/image.png)
 ## project purpose
  A site for local walkers or visitors to the area of Greater Manchester. The sites main purpose is to get people to sign up to the newsletter by engaging those who are interested in finding both popular walks and the hidden gems for those seeking a more quiet and natural atmosphere. The aim of the site's design will be to engage users by giving them easy viewing and finding of walks with a gallery to entice them to sign-up and walk in the area. Walks will be rated, give estimated walk distance, location and show an image in each card.
 ## User Stories
@@ -24,17 +24,17 @@ Bootstrap encourages Mobile first development. Bootstrap's design is most effici
 ### Homepage
  The site landing page. Utilises Bootstrap grids, navbar, modal and cards. The first section comprises of a Large title, an autoplay looped and muted video followed by an aerial shot of Manchester city with the bee overlayed on top with a . A large button "Sign up" opens a Bootstrap Modal form. The first thing a new visitor sees is the banner title and a short looping video of a person walking into the distance. The signup button remains in a fixed position in the bottom right corner so a user can easily choose to open the form from anywhere on the homepage. An image of Manchester City is overlayed with a bee - synonamous with Manchester - and is used to contrast with the following natural imagery in the walk cards. The cards contain a relevant image, card title, distance, difficulty rating, walk type and location. Common icons were chosen to easily show intent without a descriptive word. The card button will open a new tab and direct the user to a googlemaps dropped pin where the area resides. The footer contains links to popular Social media sites and uses their respective logos.
 
- ![alt text](image-9.png)![alt text](image-6.png)![alt text](image-7.png)![alt text](image-8.png)
+ ![alt text](readme-images/image-9.png)![alt text](readme-images/image-6.png)![alt text](readme-images/readme-images/image-7.png)![alt text](readme-images/image-8.png)
  #### Modal form
  The modal opens upon clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
  ### Gallery 
  This page contains a masonry styled image gallery. On mouse hover, some image text is overlayed.
 ### Design
 #### Colour scheme
-![alt text](assets/images/22-4-25-new-clr-palette.png)
+![alt text](readme-images/22-4-25-new-clr-palette.png)
 Coolors was used to help generate a pleasing, natural feeling colour palette consisting of earthy tones. The Dark Cyan and Apple Green feature heavily as background colours. Eerie black is the main font colour.
 #### Fonts
-![alt text](image-4.png)
+![alt text](readme-images/image-4.png)
 Fonts were chosen on GoogleFonts.
 Rubik Dirt is used for H1 headings and card titles.
 Montserrat Alternates is used for smaller headings and sub-headings.
@@ -43,11 +43,11 @@ Main block text font uses Amiko.
 
 Images used are of local areas around the Greater Manchester area and other than the video are all genuine images. Images were selected to highlight the areas of natural beauty and to insipire site visitors to want to experience the areas shown themselves. 
 ### Wireframes
-![Home page](image-10.png)
-![Home page - cards](image-11.png)
-![Gallery page](image-12.png)
-![Contact Us page](image-13.png)
-![Sign Up modal window](image-14.png)
+![Home page](readme-images/image-10.png)
+![Home page - cards](readme-images/image-11.png)
+![Gallery page](readme-images/image-12.png)
+![Contact Us page](readme-images/image-13.png)
+![Sign Up modal window](readme-images/image-14.png)
 ## Technology
 Bootstrap 5.3* used to assist with the styling and responsiveness. In particular, it was required for the gallery and Walk cards.
 
@@ -73,12 +73,12 @@ Testing was carried out using the following methods:
 * user testing for bug and feedback
 ### Lighthouse reports
 #### index page
-![alt text](image-3.png)
+![alt text](readme-images/image-3.png)
 #### Contact Us page
-![alt text](image-1.png)
+![alt text](readme-images/image-1.png)
 
 #### Gallery page
-![alt text](image-15.png)
+![alt text](readme-images/image-15.png)
 Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats.
 ## Deployment
 Deployment is done using Github and Github Pages. 
@@ -106,20 +106,13 @@ Hosting is carried out via Github Pages. The creation of this is done by choosin
 
 
 * signup btn should change to better contrasting colour
-* 
-* add img alt texts
 * sort out the buttons! Colors once highlighted/pressed should not be blue.
-* add table styles if keeping -looks ok in white, but need to scale for mobile
-* get rid of accessiblity card section?
-
-* 
 * overlay first line to the embed video in sm view?
 * semantics need adding/checking
 * are img titles req? y
 * reduce max vp width at large sizes - its too wide!
 * AmIResponsive
 * HTML and CSS validation
-* need a FAVICON!!!
 * cards need hidden descriptive words for accessibility reasons! (distance for the map icon etx)
 
 
