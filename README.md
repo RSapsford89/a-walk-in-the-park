@@ -94,7 +94,7 @@ Initial testing results show clear performance issues related to image loading. 
 ![alt text](readme-images/contactus-html-pass.jpg)
 
 ### WAVE
-WAVE was used to analyse accessiblity of the page. All errors found were related to contrast ratios between text and background.
+WAVE was used to analyse accessiblity of the page. All errors found were related to contrast ratios between text and background. To fix the contrast errors, card, navbar and button font was made black. the signup button background was made darker.
 
 #### Homepage
 ![alt text](readme-images/wave-index-errors.jpg)
