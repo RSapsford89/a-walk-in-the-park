@@ -74,7 +74,7 @@ Testing was carried out using the following methods:
 * user testing for bug and feedback
 ### Lighthouse reports
 #### index page
-![alt text](readme-images/image-3.png)
+![alt text](readme-images/index-86-perf-5-5-25.jpg)
 #### Contact Us page
 ![alt text](readme-images/image-1.png)
 
