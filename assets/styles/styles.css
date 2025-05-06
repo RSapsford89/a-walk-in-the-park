@@ -99,12 +99,13 @@ p {
 .navbar-brand {
   font-family: var(--title-font);
   white-space: normal;
+  color: black;
 }
 .navbar-toggler {
   outline: none;
 }
 .navbar .nav-link{
-  color:var(--tertiary-color);
+  color:black;
   opacity: 1;
 }
 .nav-link.active{
