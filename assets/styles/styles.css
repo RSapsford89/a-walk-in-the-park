@@ -1,48 +1,20 @@
 /* fonts */
 /* Rubik Dirt for big titles, Montserrat Alternates for smaller headings and Amiko for blocks of text  */
 @import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Montserrat+Alternates:ital@0;1&family=Rubik+Dirt&display=swap");
-/* Colors */
-/* https://coolors.co/ecebe4-916953-056152-2e294e-429ea6 */
-/* Font Awesome Icons 
-compass: <i class="fa-solid fa-compass"></i> 
-burger: <i class="fa-solid fa-bars"></i>
-route: <i class="fa-solid fa-route"></i>
-vertical ellipsis: <i class="fa-solid fa-ellipsis-vertical"></i>
-frog: <i class="fa-solid fa-frog"></i>
-mountain and sun: <i class="fa-solid fa-mountain-sun"></i>
-mountain and city: <i class="fa-solid fa-mountain-city"></i>
-paper plane: <i class="fa-solid fa-paper-plane"></i>
-retro camera: <i class="fa-solid fa-camera-retro"></i>
-rocky hillside: <i class="fa-solid fa-hill-rockslide"></i>
-hill: <i class="fa-solid fa-mound"></i>
-tree: <i class="fa-solid fa-tree"></i>
-full star: <i class="fa-solid fa-star"></i>
-half star: <i class="fa-solid fa-star-half-stroke"></i>
-person hiking: <i class="fa-solid fa-person-hiking"></i>
-*/
-/* colours from imgpicker using ashworth woods img: */
-/* ashworth-colours {
-  color: #7fa01a;
-  color: #048a81;
-  color: #b0b0a6;
-  color: #1e1d10;
-  color: #7e7a51;
-  color: #aa6fb5;
-} */
-/* background image */
+
+/* main colors */
 :root {
   --primary-color: rgb(116, 112, 71);
   --primary-font-color: #1e1d10;
   --secondary-color: #048a81;
   --secondary-font-color: #7e7a51;
   --tertiary-color: #e2e2e2;
-  --rgba-tertiary: rgba(145, 105, 83, 0.6);
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
   --title-font: "Rubik Dirt", serif;
-  --margin-value: 40px;
 }
 * {
+  /* set everything to 0 to start off with */
   margin: 0px;
   padding: 0px;
 }
@@ -129,9 +101,11 @@ p {
   
 }
 .card {
+  /* max width to stop stretching too far */
   max-width: 400px;
 }
 .card:hover {
+  /* hover animation to make cards look less 2d */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
   transform: scale(1.02);
   transition-duration: 0.4s;
@@ -146,13 +120,8 @@ p {
 }
 
 /* main */
-#image-stack {
-  position: relative;
-}
-
 #parent-img {
   position: relative;
-
 }
 
 #overlay-img {
@@ -175,7 +144,7 @@ p {
   font-size: 1rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/* styling for table */
+
 /* footer */
 footer {
   background-color: var(--secondary-color);
@@ -209,10 +178,11 @@ footer {
 }
 .gallery-item img {
   width: 100%; /* Full width of the column */
-  height: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio by letting height scale */
   display: block; /* Remove inline spacing */
 }
 .gallery-masonry img:hover {
+  /* transistion to fade and show text clearly */
   opacity: 0.3;
   transition: opacity 0.4s ease-in-out;
 }
@@ -245,18 +215,12 @@ img:hover + h2 {
 /* media queries */
 @media screen and (max-width: 425px) {
   /* for img space in mobile mode */
-
   .mobile-hidden {
     display: none !important;
   }
 }
 @media screen and (min-width: 768px) {
-  #image-stack p {
-    top: 70%;
-    left: 70%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   .mobile-hidden {
     display: contents;
   }

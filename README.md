@@ -73,7 +73,7 @@ Testing was carried out using the following methods:
 * form entry manual testing
 * user testing for bug and feedback
 ### Lighthouse reports
-Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. All images were changed to webp and video reduced to 480p had the largest gains in performance.
+Initial testing results show clear performance issues related to image loading in mobile settings. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. All images were changed to webp and video reduced to 480p had the largest gains in performance. All pages perform highly in desktop mode.
 #### Homepage page
 ![alt text](readme-images/index-60-perf-5-5-25.jpg)
 ![alt text](readme-images/index-87-perf-6-5-25.jpg)
@@ -136,12 +136,9 @@ Hosting is carried out via Github Pages. The creation of this is done by choosin
 
 ## Future Improvements
 
-
-* should the icons in the card have a hidden <p> to describe the content?
-* signup btn should change to better contrasting colour
-* semantics need checking
-* HTML and CSS validation - passes, need screenshots
-* cards need hidden descriptive words for accessibility reasons! (distance for the map icon etx)
+* Add a menu to sort from newest to oldest walks
+* use gmaps api to link or create in-page routes
+* backend to store the data and respond with a 'thanks for subscribing email'
 
 
 
