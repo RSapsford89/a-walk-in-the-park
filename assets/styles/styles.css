@@ -103,6 +103,12 @@ p {
 .navbar-toggler {
   outline: none;
 }
+.nav-link.active{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  color: inherit;
+}
 .flex {
   display: flex;
 }
@@ -115,6 +121,7 @@ p {
   background-color: #b4ceb3;
   color: #076152;
   border: none;
+  
 }
 .card {
   max-width: 400px;

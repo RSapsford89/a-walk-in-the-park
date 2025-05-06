@@ -92,6 +92,19 @@ Initial testing results show clear performance issues related to image loading. 
 ![alt text](readme-images/gallery-html-pass.jpg)
 #### Contact Us
 ![alt text](readme-images/contactus-html-pass.jpg)
+
+### WAVE
+WAVE was used to analyse accessiblity of the page. All errors found were related to contrast ratios between text and background.
+
+#### Homepage
+![alt text](readme-images/wave-index-errors.jpg)
+
+#### Gallery
+![alt text](readme-images/wave-gallery-errors.jpg)
+
+#### Contact Us
+![alt text](readme-images/wave-contact-errors.jpg)
+
 ## Deployment
 Deployment is done using Github and Github Pages. 
 
