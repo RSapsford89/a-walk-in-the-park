@@ -25,7 +25,7 @@ Bootstrap encourages Mobile first development. Bootstrap's design is most effici
 ### Homepage
  The site landing page. Utilises Bootstrap grids, navbar, modal and cards. The first section comprises of a Large title, an autoplay looped and muted video followed by an aerial shot of Manchester city with the bee overlayed on top with a . A large button "Sign up" opens a Bootstrap Modal form. The first thing a new visitor sees is the banner title and a short looping video of a person walking into the distance. The signup button remains in a fixed position in the bottom right corner so a user can easily choose to open the form from anywhere on the homepage. An image of Manchester City is overlayed with a bee - synonamous with Manchester - and is used to contrast with the following natural imagery in the walk cards. The cards contain a relevant image, card title, distance, difficulty rating, walk type and location. Common icons were chosen to easily show intent without a descriptive word. The card button will open a new tab and direct the user to a googlemaps dropped pin where the area resides. The footer contains links to popular Social media sites and uses their respective logos.
 
- ![alt text](readme-images/image-9.png)![alt text](readme-images/image-6.png)![alt text](readme-images/readme-images/image-7.png)![alt text](readme-images/image-8.png)
+ ![alt text](readme-images/mobile-pages.png)
  #### Modal form
  The modal opens upon clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
  ### Gallery 
@@ -73,14 +73,16 @@ Testing was carried out using the following methods:
 * form entry manual testing
 * user testing for bug and feedback
 ### Lighthouse reports
-#### index page
-![alt text](readme-images/index-86-perf-5-5-25.jpg)
+Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. All images were changed to webp and video reduced to 480p had the largest gains in performance.
+#### Homepage page
+![alt text](readme-images/index-60-perf-5-5-25.jpg)
+![alt text](readme-images/index-87-perf-6-5-25.jpg)
 #### Contact Us page
 ![alt text](readme-images/image-1.png)
 
 #### Gallery page
 ![alt text](readme-images/image-15.png)
-Initial testing results show clear performance issues related to image loading. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. The 
+
 ### CSS validation
 ![alt text](readme-images/cssValidation.png)
 ### HTML validation
@@ -98,6 +100,14 @@ The project repository is here:
 https://github.com/RSapsford89/a-walk-in-the-park
 
 The repository consists of the main branch and one merged branch 'new-homepage-layout'. Midway through the project, feedback suggested a more spacious and better colour palette would suit the site's design better. Once the new page layout and colours had been built and tested on it's own branch it could then be merged to the Main branch.
+The folder structure is:
+main    > assets    >images     all  site wide media 
+                    >styles     style.css
+        >readme-images          images for documentation
+        Readme
+        Contact-us.html
+        gallery.html
+        index.html
 
 Github Projects was used to log some bugs and feature changes through the development of the site. This is the kanban style visual layout to help monitor tasks and also mark off completed ones:
  https://github.com/users/RSapsford89/projects/1
