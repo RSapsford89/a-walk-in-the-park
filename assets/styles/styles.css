@@ -35,7 +35,7 @@ person hiking: <i class="fa-solid fa-person-hiking"></i>
   --primary-font-color: #1e1d10;
   --secondary-color: #048a81;
   --secondary-font-color: #7e7a51;
-  --tertiary-color: #b0b0a6;
+  --tertiary-color: #cacac5;
   --rgba-tertiary: rgba(145, 105, 83, 0.6);
   --heading-font: "Montserrat Alternates", serif;
   --primary-font: "Amiko", sans-serif;
@@ -103,8 +103,8 @@ p {
 .navbar-toggler {
   outline: none;
 }
-.nav-link{
-  color:inherit;
+.navbar .nav-link{
+  color:var(--tertiary-color);
   opacity: 1;
 }
 .nav-link.active{
@@ -167,7 +167,7 @@ p {
   bottom: 12px;
   right: 20px;
   z-index: 2;
-  background-color: #aa6fb5;
+  background-color: #8f399e;
   color: white;
   border-radius: 5%;
   padding: 5px;
