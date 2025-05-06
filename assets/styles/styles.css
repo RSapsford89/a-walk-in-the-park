@@ -140,6 +140,9 @@ p {
   color: var(--primary-color);
   font-size: 2rem;
 }
+.card-text{
+  color: var(--primary-font-color);
+}
 
 /* main */
 #image-stack {
