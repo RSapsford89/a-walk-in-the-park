@@ -30,6 +30,12 @@ Bootstrap encourages Mobile first development. Bootstrap's design is most effici
  The modal opens upon clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
  ### Gallery 
  This page contains a masonry styled image gallery. On mouse hover, some image text is overlayed.
+
+ The masonry style layout takes ideas from: 
+ * BootStrap 5 documentation: https://getbootstrap.com/docs/5.3/components/card/#masonry & https://getbootstrap.com/docs/5.3/examples/masonry/
+  - Shows the use of `display: block` 
+ * The BootStrap linked masonry page: https://masonry.desandro.com/ 
+  - The idea of using the overflow to change how the end of column content flows, hidden gave a nice look for the page due to the different sized images and mix of layout and portait
 ### Design
 #### Colour scheme
 ![alt text](readme-images/22-4-25-new-clr-palette.png)
