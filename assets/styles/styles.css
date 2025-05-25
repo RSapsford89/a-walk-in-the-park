@@ -104,6 +104,7 @@ p {
   /* max width to stop stretching too far */
   max-width: 400px;
 }
+/* Transistion found in the CSS docs: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions */
 .card:hover {
   /* hover animation to make cards look less 2d */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
@@ -167,9 +168,10 @@ footer {
 /* masonry container */
 .gallery-masonry {
   column-count: 3; /* Default: 3 columns display for lg*/
-  column-gap: 1rem; /* Gap between columns - remove? */
+  column-gap: 1rem; /* Gap between columns */
 }
-/* masonry items */
+/* masonry items ideas taken from Boostrap demo and Desandro for use of overflow, 
+positions and column-counts*/
 .gallery-item {
   position: relative;
   break-inside: avoid;

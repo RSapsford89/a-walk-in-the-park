@@ -2,6 +2,7 @@
 ![alt text](readme-images/image.png)
 ## project purpose
  A site for local walkers or visitors to the area of Greater Manchester. The sites main purpose is to get people to sign up to the newsletter by engaging those who are interested in finding both popular walks and the hidden gems for those seeking a more quiet and natural atmosphere. The aim of the site's design will be to engage users by giving them easy viewing and finding of walks with a gallery to entice them to sign-up and walk in the area. Walks will be rated, give estimated walk distance, location and show an image in each card.
+
 ## User Stories
 Who, Why, Because...
 
@@ -10,11 +11,13 @@ Who, Why, Because...
 - Essential: Bootstrap cards provide an image, location text and button which opens to show a google maps pin of the location. href in the button opens a googlemaps dropped pin.
 2. A new visitor to the site wants to find local curated walks which quickly highlight how long and difficult a walk is to ensure it is appropriate for their level of fitness.
 - Essential: Bootstrap cards contain walk length in Km and difficulty rating in stars
+
 ### Returning Visitor
  1. A returning user wants to sign up for the newsletter so they can be kept informed of any newly added walks and also to send a list of selected walks to their inbox.
 - Essential: A fixed signup button is in the bottom right corner. Clicking this opens a modal form which requires validated Name and Email to subscribe. In this application, data is sent to a mock database (codeinstitute form dump)
 2. A returning user wants to be able to provide feedback by contacting the site admin in a Contact Us section.
 - Essential: The contact us page has a form where free text can be entered along with selecting a reason for contact in a drop down box.
+
 ### Frequent Visitor
 1. A Frequent site user wants to view more/ new walks in a date of post format added to the listings before picking one for the weekend. 
 - Low value: This feature utilises JS and is out of scope. 
@@ -26,12 +29,15 @@ Who, Why, Because...
 
 ## Features
 Bootstrap encourages Mobile first development. Bootstrap's design is most efficient on mobile devices and readily scales to portrait, tablet, laptop and greater sized screens whilst maintaining responsiveness. 
+
 ### Homepage
  The site landing page. Utilises Bootstrap grids, navbar, modal and cards. The first section comprises of a Large title, an autoplay looped and muted video followed by an aerial shot of Manchester city with the bee overlayed on top with. A large button "Sign up" opens a Bootstrap Modal form. The first thing a new visitor sees is the banner title and a short looping video of a person walking into the distance. The signup button remains in a fixed position in the bottom right corner so a user can easily choose to open the form from anywhere on the homepage. An image of Manchester City is overlayed with a bee - synonamous with Manchester - and is used to contrast with the following natural imagery in the walk cards. The cards contain a relevant image, card title, distance, difficulty rating, walk type and location. Common icons were chosen to easily show intent without a descriptive word. The card button will open a new tab and direct the user to a googlemaps dropped pin where the area resides. The footer contains links to popular Social media sites and uses their respective logos.
 
  ![alt text](readme-images/mobile-pages.png)
+
  #### Modal form
  The modal opens upon clicking the signup button. It shows a form for the user to complete and requires the following: First and Last name as text. Email address with format checking ( @ symbol in an email). Submit button which only works when all information is valid.
+
  ### Gallery 
  This page contains a masonry styled image gallery. On mouse hover, some image text is overlayed.
 
@@ -44,21 +50,24 @@ Bootstrap encourages Mobile first development. Bootstrap's design is most effici
 #### Colour scheme
 ![alt text](readme-images/22-4-25-new-clr-palette.png)
 Coolors was used to help generate a pleasing, natural feeling colour palette consisting of earthy tones. The Dark Cyan and Apple Green feature heavily as background colours. Eerie black is the main font colour.
+
 #### Fonts
 ![alt text](readme-images/image-4.png)
 Fonts were chosen on GoogleFonts.
 Rubik Dirt is used for H1 headings and card titles.
 Montserrat Alternates is used for smaller headings and sub-headings.
 Main block text font uses Amiko.
-#### Imagery
 
+#### Imagery
 Images used are of local areas around the Greater Manchester area and other than the video are all genuine images. Images were selected to highlight the areas of natural beauty and to insipire site visitors to want to experience the areas shown themselves. 
+
 ### Wireframes
 ![Home page](readme-images/image-10.png)
 ![Home page - cards](readme-images/image-11.png)
 ![Gallery page](readme-images/image-12.png)
 ![Contact Us page](readme-images/image-13.png)
 ![Sign Up modal window](readme-images/image-14.png)
+
 ## Technology
 ### Code
 Bootstrap 5.3* used to assist with the styling and responsiveness. In particular, it was required for the gallery and Walk cards.
@@ -136,7 +145,7 @@ The navbar is based on the Navbar 'nav' example with additions to add underlinin
 </nav>
 ```
 
-The modal form comprises of a floating `button` and `form` within a `modal`. It uses custom button code and the basic modal example code with custom form, with inspiration from the Code Institure Mei Portfolio, utilising grids for neater layout and responsiveness. Modal doc:
+The modal form comprises of a floating `button` and `form` within a `modal`. It uses custom button code and the basic modal example code with custom form, with inspiration from the Code Institure Mei Portfolio, utilising grids for neater layout and responsiveness. Modal doc: https://getbootstrap.com/docs/5.3/components/accordion/
 ```
 <div class="modal" tabindex="-1">
   <div class="modal-dialog">
@@ -224,6 +233,7 @@ To create documentation imagery, AmIResponsive can display the site on different
 For the landing video, Coverr was used: https://coverr.co/
 
 Microsoft's Copilot AI was used to help generate the bee image. 
+
 ## Testing
 Testing was carried out using the following methods:
 * running Lighthouse on each live page
@@ -232,8 +242,10 @@ Testing was carried out using the following methods:
 * responsiveness manual testing from 320px wide to 1440px wide screens
 * form entry manual testing
 * user testing for bug and feedback
+
 ### Lighthouse reports
 Initial testing results show clear performance issues related to image loading in mobile settings. Lighthouse suggests changing image formats. Some experimentation with webp formats and reducing size of images only had marginal gains on performance. All images were changed to webp and video reduced to 480p had the largest gains in performance. All pages perform highly in desktop mode.
+
 #### Homepage page
 ![alt text](readme-images/index-60-perf-5-5-25.jpg)
 ![alt text](readme-images/index-87-perf-6-5-25.jpg)
@@ -245,6 +257,7 @@ Initial testing results show clear performance issues related to image loading i
 
 ### CSS validation
 ![alt text](readme-images/cssValidation.png)
+
 ### HTML validation
 #### Index
 ![alt text](readme-images/index-html-pass.jpg)
@@ -288,14 +301,12 @@ Github Projects was used to log some bugs and feature changes through the develo
 
 
 ### Page Hosting
-
 The page link is:
 https://rsapsford89.github.io/a-walk-in-the-park/
 
 Hosting is carried out via Github Pages. The creation of this is done by choosing which branch of the project you wish to be made live in the Project > Settings > Pages area. By selecting Main, the most recently pushed 'main' branch is made the live, viewable page.
 
 ## Bugs and Fixes
-
 Throughout the development numerous bugs were fixed and incremental changes made to improve repsonsiveness, element positions and accessibility issues for example. 
 
 WAVE contrast fixes required the changing of Navbar, Card and Footer font colours. This was mostly resolved using WAVE to get the report and then Devtools to change colours and inspect the 'ratio' reading when it appeared. 
@@ -320,8 +331,13 @@ Gallery was intended to have the `hover` CSS style applied which would fade the 
 
 Inconsistent margins between sections and pages. Occassionaly the margins between sections would differ by some small number of pixels. Temporary CSS styling and Devtool debug was used to isolate the issue: inconsistent use of `container` and `container-fluid` and if content was nested inside grid `columns`. Reviewing and testing of site wide content re-aligned page margins and made them consistent throughout. 
 
-## Future Improvements
+### Remaining bugs
+* margin on tablet size ( 2 columns of cards) is double thickness in the center. Either `mx-auto` isn't working as I intended it to, or another class is accidentally adding to each side regardless.
 
+* Accordion width does not quite match the width of the cards on large size, but looks good on mobile, lg-mobile and tablet.
+* The submitted site had a typo in the Lyme Park Google maps link! (has since been resolved)
+
+## Future Improvements
 * Add a menu to sort from newest to oldest walks
 * use gmaps api to link or create in-page routes
 * backend to store the data and respond with a 'thanks for subscribing email'
