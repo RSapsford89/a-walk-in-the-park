@@ -69,6 +69,12 @@ Images used are of local areas around the Greater Manchester area and other than
 ![Sign Up modal window](readme-images/image-14.png)
 
 ## Technology
+A summary of technology used to create the website is below, an expanded section is in the Credits section:
+* languages used are HTML and CSS
+* Software development was written in VS code: https://code.visualstudio.com/
+* Debugging and testing was carried out in Microsoft's Edge broswer using DevTools: https://www.microsoft.com/en-us/edge/?form=MA13RE?ocid=ORSEARCH_Bing
+* Balsamiq was used to create wireframes: https://balsamiq.com/
+* Bootstrap was used for responsiveness design across the site: https://getbootstrap.com/
 ### Code
 Bootstrap 5.3* used to assist with the styling and responsiveness. In particular, it was required for the gallery and Walk cards.
 
@@ -226,13 +232,7 @@ GoogleFonts used to acquire appropriate friendly fonts to give a welcoming and c
 
 FontAwesome used to get some outdoor and walking related icons for use throughout the headings
 
-Coolors was used to generate contrasting colour palettes: https://coolors.co/
 
-To create documentation imagery, AmIResponsive can display the site on different media sizes: https://ui.dev/amiresponsive
-
-For the landing video, Coverr was used: https://coverr.co/
-
-Microsoft's Copilot AI was used to help generate the bee image. 
 
 ## Testing
 Testing was carried out using the following methods:
@@ -286,18 +286,9 @@ The project repository is here:
 https://github.com/RSapsford89/a-walk-in-the-park
 
 The repository consists of the main branch and one merged branch 'new-homepage-layout'. Midway through the project, feedback suggested a more spacious and better colour palette would suit the site's design better. Once the new page layout and colours had been built and tested on it's own branch it could then be merged to the Main branch.
-The folder structure is:
-main    > assets    >images     all  site wide media 
-                    >styles     style.css
-        >readme-images          images for documentation
-        Readme
-        Contact-us.html
-        gallery.html
-        index.html
 
 Github Projects was used to log some bugs and feature changes through the development of the site. This is the kanban style visual layout to help monitor tasks and also mark off completed ones:
  https://github.com/users/RSapsford89/projects/1
-
 
 
 ### Page Hosting
@@ -305,6 +296,47 @@ The page link is:
 https://rsapsford89.github.io/a-walk-in-the-park/
 
 Hosting is carried out via Github Pages. The creation of this is done by choosing which branch of the project you wish to be made live in the Project > Settings > Pages area. By selecting Main, the most recently pushed 'main' branch is made the live, viewable page.
+
+## Credits
+Software development was done in VS code: https://code.visualstudio.com/
+
+Debugging and testing was carried out in Microsoft's Edge broswer using DevTools: https://www.microsoft.com/en-us/edge/?form=MA13RE?ocid=ORSEARCH_Bing
+
+Coolors was used to generate contrasting colour palettes: https://coolors.co/
+
+Fonts were taken from Google Fonts: https://fonts.google.com/
+
+Icons were found on Font Awesome: https://fontawesome.com/
+
+Masonry gallery inspiration from: https://masonry.desandro.com/
+
+To create documentation imagery, AmIResponsive can display the site on different media sizes: https://ui.dev/amiresponsive
+
+For the landing video, Coverr was used: https://coverr.co/
+
+Project and file hosting ustilised github: https://github.com/
+
+With version control utilising Git: https://git-scm.com/downloads
+
+Balsamiq was used to create wireframes: https://balsamiq.com/
+
+For accessibility checking, WAVE was used: https://wave.webaim.org/
+
+For HTML validation: https://validator.w3.org/#validate_by_input
+
+For CSS validation: https://jigsaw.w3.org/css-validator/#validate_by_input
+
+Bootstrap was used for responsiveness design across the site: https://getbootstrap.com/
+
+Squoosh to reformat images into smaller dimensions and formats (webp): https://squoosh.app/
+
+To change the favicon art to the correct size, favicon.io was used: https://favicon.io/favicon-converter/
+
+My tutor, Spencer for assistance and pointers for page design and layout: https://spencers.studio/about
+
+Microsoft's Copilot AI was used to help generate the bee image and a favicon pixel art image.
+
+All other images are my own work.
 
 ## Bugs and Fixes
 Throughout the development numerous bugs were fixed and incremental changes made to improve repsonsiveness, element positions and accessibility issues for example. 
